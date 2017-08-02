@@ -84,12 +84,12 @@ class Cifar10(object):
     def next_train_batch(self, idx):
         batch_images = self.train_images[self.shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
         batch_labels = self.train_labels[self.shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
-        return batch_images, batch_labels
+        return self.normalize(batch_images), batch_labels
 
     def next_test_batch(self, idx):
         batch_images = self.test_images[idx * self.test_batch_size : (idx + 1) * self.test_batch_size]
         batch_labels = self.test_labels[idx * self.test_batch_size : (idx + 1) * self.test_batch_size]
-        return batch_images, batch_labels
+        return self.normalize(batch_images), batch_labels
 
     def next_aug_train_batch(self, idx):
         batch_images = self.train_images[self.shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
@@ -113,6 +113,6 @@ class Cifar10(object):
                 
             np.copyto(aug_batch_images[i], flipped_img)
         
-        return aug_batch_images, batch_labels
+        return self.normalize(aug_batch_images), batch_labels
 
 
