@@ -98,6 +98,14 @@ class Cifar10(object):
         # Padding
         pad_width = ((0, 0), (4, 4), (4, 4), (0, 0))
         padded_images = np.pad(batch_images, pad_width, mode='constant', constant_values=0)
-        return padded_images, batch_labels
+
+        # Random crop
+        cropped_images = np.zeros_like(padded_images)
+        for i in range(len(batch_images)):
+            x = np.random.randomint(0, high=8)
+            y = np.random.randomint(0, high=8)
+            cropped_images[i, ...] = padded_images[i, ...][x : x + 32, y : y + 32, :]
+            
+        return cropped_images, batch_labels
 
 
