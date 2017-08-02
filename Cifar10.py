@@ -13,7 +13,7 @@ def maybe_download(target_dir):
     
         print 'Extracting cifar dataset...'
         tar = tarfile.open(cifar_data_file, "r:gz")
-        tar.extractall(cifar_dir)
+        tar.extractall(target_dir)
         tar.close()    
 
 class Cifar10(object):
@@ -27,16 +27,16 @@ class Cifar10(object):
         maybe_download(download_dir)
         
         self.cifar_dir = os.path.join(download_dir, 'cifar-10-batches-py')
-        self.train_images, self.train_labels = load_train_data()
-        self.test_images, self.test_labels = load_test_data()
-        self.pp_mean = get_per_pixel_mean()
+        self.train_images, self.train_labels = self.load_train_data()
+        self.test_images, self.test_labels = self.load_test_data()
+        self.pp_mean = self.get_per_pixel_mean()
         self.normalize()
         self.shuffle()
 
         self.train_batch_count = self.train_images.shape[0] // self.train_batch_size
         self.test_batch_count = self.test_images.shape[0] // self.test_batch_size
 
-    def load_train_data():
+    def load_train_data(self):
         train_files = ['data_batch_1',
                        'data_batch_2',
                        'data_batch_3',
@@ -50,13 +50,13 @@ class Cifar10(object):
                 raw = cPickle.load(f)
 
             count = raw['data'].shape[0]
-            batch = np.transpose(raw['data'].reshape((count, 32, 32, 3)), (0, 2, 3, 1))
+            batch = np.transpose(raw['data'].reshape((count, 3, 32, 32)), (0, 2, 3, 1))
 
             images += list(batch)
             labels += raw['labels']
         return np.array(images).astype(np.float32), np.array(labels)
 
-    def load_test_data():
+    def load_test_data(self):
         test_file = 'test_batch'
         images, labels = [], []
 
@@ -71,7 +71,7 @@ class Cifar10(object):
         labels += raw['labels']  
         return np.array(images).astype(np.float32), np.array(labels)
 
-    def get_per_pixel_mean():
+    def get_per_pixel_mean(self):
         images = np.concatenate((self.train_images, self.test_images), axis=0)
         return np.mean(images, axis=0)
 
@@ -83,12 +83,14 @@ class Cifar10(object):
         self.test_images = (self.test_images - self.pp_mean) / 128.0
 
     def next_train_batch(self, idx):
-        batch_images = self.train_images[shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
-        batch_labels = self.train_labels[shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
+        batch_images = self.train_images[self.shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
+        batch_labels = self.train_labels[self.shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
+        return batch_images, batch_labels
 
     def next_test_batch(self, idx):
         batch_images = self.test_images[idx * self.test_batch_size : (idx + 1) * self.test_batch_size]
         batch_labels = self.test_labels[idx * self.test_batch_size : (idx + 1) * self.test_batch_size]
+        return batch_images, batch_labels
 
 
 
