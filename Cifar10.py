@@ -2,6 +2,7 @@ import urllib
 import os
 import tarfile
 import cPickle
+import cv2
 import numpy as np
 
 def maybe_download(target_dir):
@@ -30,7 +31,6 @@ class Cifar10(object):
         self.train_images, self.train_labels = self.load_train_data()
         self.test_images, self.test_labels = self.load_test_data()
         self.pp_mean = self.get_per_pixel_mean()
-        self.normalize()
         self.shuffle()
 
         self.train_batch_count = self.train_images.shape[0] // self.train_batch_size
@@ -78,9 +78,8 @@ class Cifar10(object):
     def shuffle(self):
         self.shuffle = np.random.permutation(self.train_images.shape[0])
 
-    def normalize(self):
-        self.train_images = (self.train_images - self.pp_mean) / 128.0
-        self.test_images = (self.test_images - self.pp_mean) / 128.0
+    def normalize(self, batch_images):
+        return (batch_images- self.pp_mean) / 128.0
 
     def next_train_batch(self, idx):
         batch_images = self.train_images[self.shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
@@ -92,5 +91,13 @@ class Cifar10(object):
         batch_labels = self.test_labels[idx * self.test_batch_size : (idx + 1) * self.test_batch_size]
         return batch_images, batch_labels
 
+    def next_aug_train_batch(self, idx):
+        batch_images = self.train_images[self.shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
+        batch_labels = self.train_labels[self.shuffle[idx * self.train_batch_size : (idx + 1) * self.train_batch_size]]
+
+        # Padding
+        pad_width = ((0, 0), (4, 4), (4, 4), (0, 0))
+        padded_images = np.pad(batch_images, pad_width, mode='constant', constant_values=0)
+        return padded_images, batch_labels
 
 
