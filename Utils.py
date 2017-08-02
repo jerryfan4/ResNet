@@ -1,13 +1,13 @@
 import tensorflow as tf
 
-def conv2d(scope, input_layer, output_channels, 
+def conv2d(scope, input_layer, output_dim, 
             filter_size=3, strides=[1, 1, 1, 1]):
-    in_channels = input_layer.get_shape().as_list()[-1]
+    input_dim = input_layer.get_shape().as_list()[-1]
 
     with tf.variable_scope(scope):
         conv_filter = tf.get_variable(
             'conv_filter',
-            shape = [filter_size, filter_size, in_channels, output_channels],
+            shape = [filter_size, filter_size, input_dim, output_dim],
             dtype = tf.float32,
             initializer = tf.contrib.layers.variance_scaling_initializer(),
             regularizer = tf.contrib.layers.l2_regularizer(scale=0.0002)
@@ -16,7 +16,7 @@ def conv2d(scope, input_layer, output_channels,
 
         bias = tf.get_variable(
             'conv_bias',
-            shape = [output_channels],
+            shape = [output_dim],
             dtype = tf.float32,
             initializer = tf.constant_initializer(0.0)
         )
@@ -67,10 +67,12 @@ def fully_connected(scope, input_layer, output_dim):
 
         return output_layer
 
-def avg_pool(scope, input_layer, ksize, strides):
+def avg_pool(scope, input_layer, ksize=None, strides=[1, 2, 2, 1]):
+    if ksize is None:
+        ksize = strides
+
     with tf.variable_scope(scope):
         output_layer = tf.nn.avg_pool(input_layer, ksize, strides, 'VALID')
         return output_layer
 
-def residual(scope, input_layer, increase_dim, first):
 
