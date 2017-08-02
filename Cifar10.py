@@ -99,13 +99,20 @@ class Cifar10(object):
         pad_width = ((0, 0), (4, 4), (4, 4), (0, 0))
         padded_images = np.pad(batch_images, pad_width, mode='constant', constant_values=0)
 
-        # Random crop
-        cropped_images = np.zeros_like(padded_images)
+        # Random crop and flip
+        aug_batch_images = np.zeros_like(batch_images)
         for i in range(len(batch_images)):
-            x = np.random.randomint(0, high=8)
-            y = np.random.randomint(0, high=8)
-            cropped_images[i, ...] = padded_images[i, ...][x : x + 32, y : y + 32, :]
-            
-        return cropped_images, batch_labels
+            x = np.random.randint(0, high=8)
+            y = np.random.randint(0, high=8)
+            cropped_img = padded_images[i][x : x + 32, y : y + 32, :]
+            is_flip = np.random.randint(0, high=9)
+            if is_flip % 2 == 0:
+                flipped_img = cv2.flip(cropped_img, flipCode=1)
+            else:
+                flipped_img = cropped_img
+                
+            np.copyto(aug_batch_images[i], flipped_img)
+        
+        return aug_batch_images, batch_labels
 
 
