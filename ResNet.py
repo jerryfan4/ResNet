@@ -112,8 +112,15 @@ class ResNet(object):
             labels = self.train_label_placeholder,
             logits = logits
         )
+        
+        decay = tf.train.exponential_decay(0.0002, train_step, 480000, 0.2, staircase=True)
+        decay_loss = []
+        for var in tf.trainable_variables():
+            if var.op.name.find(r'fc') > 0:
+                decay_loss.append(tf.nn.l2_loss(var))
+        
         prediction = tf.equal(tf.cast(tf.argmax(prob, axis=1), tf.int32), self.train_label_placeholder)
-        self.train_loss = tf.reduce_mean(loss)
+        self.train_loss = tf.reduce_mean(loss) + tf.mul(decay, tf.add_n(decay_loss))
         self.train_accuracy = tf.reduce_mean(tf.cast(prediction, tf.float32))
 
         lr_boundaries = [32000, 48000, 64000]

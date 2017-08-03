@@ -40,8 +40,8 @@ def batch_norm(scope, input_layer, is_training, reuse):
     return output_layer
 
 def lrelu(input_layer, leak=0.2):
-    #output_layer = tf.nn.relu(input_layer)
-    output_layer = tf.maximum(input_layer, leak * input_layer)
+    output_layer = tf.nn.relu(input_layer)
+    #output_layer = tf.maximum(input_layer, leak * input_layer)
     return output_layer
 
 def fully_connected(scope, input_layer, output_dim):
