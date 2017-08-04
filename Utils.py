@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-def conv2d(scope, input_layer, output_dim, 
+def conv2d(scope, input_layer, output_dim, use_bias=False,
             filter_size=3, strides=[1, 1, 1, 1]):
     input_dim = input_layer.get_shape().as_list()[-1]
 
@@ -21,9 +21,12 @@ def conv2d(scope, input_layer, output_dim,
             initializer = tf.constant_initializer(0.0)
         )
 
-        output_layer = tf.nn.bias_add(conv, bias)
-        output_layer = tf.reshape(output_layer, conv.get_shape())
-
+        if use_bias:
+            output_layer = tf.nn.bias_add(conv, bias)
+            output_layer = tf.reshape(output_layer, conv.get_shape())
+        else:
+            output_layer = conv
+            
         return output_layer
 
 def batch_norm(scope, input_layer, is_training, reuse):
