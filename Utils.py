@@ -14,19 +14,19 @@ def conv2d(scope, input_layer, output_dim, use_bias=False,
         )
         conv = tf.nn.conv2d(input_layer, conv_filter, strides, 'SAME')
 
-        bias = tf.get_variable(
-            'conv_bias',
-            shape = [output_dim],
-            dtype = tf.float32,
-            initializer = tf.constant_initializer(0.0)
-        )
-
         if use_bias:
+            bias = tf.get_variable(
+                'conv_bias',
+                shape = [output_dim],
+                dtype = tf.float32,
+                initializer = tf.constant_initializer(0.0)
+            )
+            
             output_layer = tf.nn.bias_add(conv, bias)
             output_layer = tf.reshape(output_layer, conv.get_shape())
         else:
             output_layer = conv
-            
+
         return output_layer
 
 def batch_norm(scope, input_layer, is_training, reuse):
