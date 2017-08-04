@@ -31,7 +31,7 @@ class Cifar10(object):
         self.train_images, self.train_labels = self.load_train_data()
         self.test_images, self.test_labels = self.load_test_data()
         self.pp_mean = self.get_per_pixel_mean()
-        self.shuffle()
+        self.shuffle_dataset()
 
         self.train_batch_count = self.train_images.shape[0] // self.train_batch_size
         self.test_batch_count = self.test_images.shape[0] // self.test_batch_size
@@ -75,7 +75,7 @@ class Cifar10(object):
         images = np.concatenate((self.train_images, self.test_images), axis=0)
         return np.mean(images, axis=0)
 
-    def shuffle(self):
+    def shuffle_dataset(self):
         self.shuffle = np.random.permutation(self.train_images.shape[0])
 
     def normalize(self, batch_images):
