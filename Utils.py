@@ -21,7 +21,7 @@ def conv2d(scope, input_layer, output_dim, use_bias=False,
                 dtype = tf.float32,
                 initializer = tf.constant_initializer(0.0)
             )
-            
+
             output_layer = tf.nn.bias_add(conv, bias)
             output_layer = tf.reshape(output_layer, conv.get_shape())
         else:
@@ -39,6 +39,27 @@ def batch_norm(scope, input_layer, is_training, reuse):
         reuse = reuse,
         scope = scope
     )
+
+    '''
+    with tf.variable_scope(scope, reuse=reuse):
+        input_dim = input_layer.get_shape().as_list()[-1]
+        mean, variance = tf.nn.moments(input_layer, [0, 1, 2])
+        beta = tf.get_variable(
+            'bn_beta',
+            shape = [input_dim],
+            dtype = tf.float32,
+            initializer = tf.constant_initializer(0.0)
+        )
+        gamma = tf.get_variable(
+            'bn_gamma',
+            shape = [input_dim],
+            dtype = tf.float32,
+            initializer = tf.constant_initializer(1.0)
+        )
+
+        output_layer = tf.nn.batch_normalization(input_layer, mean, variance,
+                                                 beta, gamma, 0.00001)
+    '''
 
     return output_layer
 
