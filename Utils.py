@@ -30,7 +30,7 @@ def conv2d(scope, input_layer, output_dim, use_bias=False,
         return output_layer
 
 def batch_norm(scope, input_layer, is_training, reuse):
-    '''
+
     output_layer = tf.contrib.layers.batch_norm(
         input_layer,
         decay = 0.9,
@@ -60,7 +60,7 @@ def batch_norm(scope, input_layer, is_training, reuse):
 
         output_layer = tf.nn.batch_normalization(input_layer, mean, variance,
                                                  beta, gamma, 0.00001)
-
+    '''
     return output_layer
 
 def lrelu(input_layer, leak=0.2):
