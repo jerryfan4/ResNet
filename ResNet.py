@@ -116,7 +116,7 @@ class ResNet(object):
         decay = tf.train.exponential_decay(0.0002, train_step, 480000, 0.2, staircase=True)
         decay_loss = []
         for var in tf.trainable_variables():
-            if var.op.name.find(r'fc') > 0:
+            if var.op.name.find(r'weight') > 0:
                 decay_loss.append(tf.nn.l2_loss(var))
         
         prediction = tf.equal(tf.cast(tf.argmax(prob, axis=1), tf.int32), self.train_label_placeholder)
