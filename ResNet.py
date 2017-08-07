@@ -120,7 +120,7 @@ class ResNet(object):
                 decay_loss.append(tf.nn.l2_loss(var))
         
         prediction = tf.equal(tf.cast(tf.argmax(prob, axis=1), tf.int32), self.train_label_placeholder)
-        self.train_loss = tf.reduce_mean(loss) + tf.mul(decay, tf.add_n(decay_loss))
+        self.train_loss = tf.reduce_mean(loss) + tf.multiply(decay, tf.add_n(decay_loss))
         self.train_accuracy = tf.reduce_mean(tf.cast(prediction, tf.float32))
 
         lr_boundaries = [32000, 48000, 64000]
