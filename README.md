@@ -18,5 +18,6 @@ Tensorflow ResNet implementation on cifar10.  Please check out original github r
 
 ## Loss & error curve
 32 layer
+
 ![missing error curve](https://github.com/jerryfan4/ResNet/blob/master/ResNet32/error.png)
 ![missing loss curve](https://github.com/jerryfan4/ResNet/blob/master/ResNet32/loss.png)
