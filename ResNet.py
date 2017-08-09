@@ -123,8 +123,10 @@ class ResNet(object):
         self.train_loss = tf.reduce_mean(loss) + tf.multiply(decay, tf.add_n(decay_loss))
         self.train_accuracy = tf.reduce_mean(tf.cast(prediction, tf.float32))
 
-        lr_boundaries = [32000, 48000, 64000]
-        lr_values = [0.1, 0.01, 0.001, 0.0002]
+        #lr_boundaries = [32000, 48000, 64000]
+        #lr_values = [0.1, 0.01, 0.001, 0.0002]
+        lr_boundaries = [400, 32000, 48000, 64000]
+        lr_values = [0.01, 0.1, 0.01, 0.001, 0.0002]
         self.learning_rate = tf.train.piecewise_constant(train_step, lr_boundaries, lr_values)
 
         train_vars = [x for x in tf.trainable_variables() if 'ResNet' in x.name]
