@@ -1,0 +1,2078 @@
+Global variables:
+0 Variable:0 ()
+1 ResNet/r0_conv/conv_weight:0 (3, 3, 3, 16)
+2 ResNet/r0_bn/beta:0 (16,)
+3 ResNet/r0_bn/gamma:0 (16,)
+4 ResNet/r0_bn/moving_mean:0 (16,)
+5 ResNet/r0_bn/moving_variance:0 (16,)
+6 ResNet/res1.0/h1_conv/conv_weight:0 (3, 3, 16, 16)
+7 ResNet/res1.0/h1_bn/beta:0 (16,)
+8 ResNet/res1.0/h1_bn/gamma:0 (16,)
+9 ResNet/res1.0/h1_bn/moving_mean:0 (16,)
+10 ResNet/res1.0/h1_bn/moving_variance:0 (16,)
+11 ResNet/res1.0/h2_conv/conv_weight:0 (3, 3, 16, 16)
+12 ResNet/res1.1/h0_bn/beta:0 (16,)
+13 ResNet/res1.1/h0_bn/gamma:0 (16,)
+14 ResNet/res1.1/h0_bn/moving_mean:0 (16,)
+15 ResNet/res1.1/h0_bn/moving_variance:0 (16,)
+16 ResNet/res1.1/h1_conv/conv_weight:0 (3, 3, 16, 16)
+17 ResNet/res1.1/h1_bn/beta:0 (16,)
+18 ResNet/res1.1/h1_bn/gamma:0 (16,)
+19 ResNet/res1.1/h1_bn/moving_mean:0 (16,)
+20 ResNet/res1.1/h1_bn/moving_variance:0 (16,)
+21 ResNet/res1.1/h2_conv/conv_weight:0 (3, 3, 16, 16)
+22 ResNet/res1.2/h0_bn/beta:0 (16,)
+23 ResNet/res1.2/h0_bn/gamma:0 (16,)
+24 ResNet/res1.2/h0_bn/moving_mean:0 (16,)
+25 ResNet/res1.2/h0_bn/moving_variance:0 (16,)
+26 ResNet/res1.2/h1_conv/conv_weight:0 (3, 3, 16, 16)
+27 ResNet/res1.2/h1_bn/beta:0 (16,)
+28 ResNet/res1.2/h1_bn/gamma:0 (16,)
+29 ResNet/res1.2/h1_bn/moving_mean:0 (16,)
+30 ResNet/res1.2/h1_bn/moving_variance:0 (16,)
+31 ResNet/res1.2/h2_conv/conv_weight:0 (3, 3, 16, 16)
+32 ResNet/res1.3/h0_bn/beta:0 (16,)
+33 ResNet/res1.3/h0_bn/gamma:0 (16,)
+34 ResNet/res1.3/h0_bn/moving_mean:0 (16,)
+35 ResNet/res1.3/h0_bn/moving_variance:0 (16,)
+36 ResNet/res1.3/h1_conv/conv_weight:0 (3, 3, 16, 16)
+37 ResNet/res1.3/h1_bn/beta:0 (16,)
+38 ResNet/res1.3/h1_bn/gamma:0 (16,)
+39 ResNet/res1.3/h1_bn/moving_mean:0 (16,)
+40 ResNet/res1.3/h1_bn/moving_variance:0 (16,)
+41 ResNet/res1.3/h2_conv/conv_weight:0 (3, 3, 16, 16)
+42 ResNet/res1.4/h0_bn/beta:0 (16,)
+43 ResNet/res1.4/h0_bn/gamma:0 (16,)
+44 ResNet/res1.4/h0_bn/moving_mean:0 (16,)
+45 ResNet/res1.4/h0_bn/moving_variance:0 (16,)
+46 ResNet/res1.4/h1_conv/conv_weight:0 (3, 3, 16, 16)
+47 ResNet/res1.4/h1_bn/beta:0 (16,)
+48 ResNet/res1.4/h1_bn/gamma:0 (16,)
+49 ResNet/res1.4/h1_bn/moving_mean:0 (16,)
+50 ResNet/res1.4/h1_bn/moving_variance:0 (16,)
+51 ResNet/res1.4/h2_conv/conv_weight:0 (3, 3, 16, 16)
+52 ResNet/res1.5/h0_bn/beta:0 (16,)
+53 ResNet/res1.5/h0_bn/gamma:0 (16,)
+54 ResNet/res1.5/h0_bn/moving_mean:0 (16,)
+55 ResNet/res1.5/h0_bn/moving_variance:0 (16,)
+56 ResNet/res1.5/h1_conv/conv_weight:0 (3, 3, 16, 16)
+57 ResNet/res1.5/h1_bn/beta:0 (16,)
+58 ResNet/res1.5/h1_bn/gamma:0 (16,)
+59 ResNet/res1.5/h1_bn/moving_mean:0 (16,)
+60 ResNet/res1.5/h1_bn/moving_variance:0 (16,)
+61 ResNet/res1.5/h2_conv/conv_weight:0 (3, 3, 16, 16)
+62 ResNet/res1.6/h0_bn/beta:0 (16,)
+63 ResNet/res1.6/h0_bn/gamma:0 (16,)
+64 ResNet/res1.6/h0_bn/moving_mean:0 (16,)
+65 ResNet/res1.6/h0_bn/moving_variance:0 (16,)
+66 ResNet/res1.6/h1_conv/conv_weight:0 (3, 3, 16, 16)
+67 ResNet/res1.6/h1_bn/beta:0 (16,)
+68 ResNet/res1.6/h1_bn/gamma:0 (16,)
+69 ResNet/res1.6/h1_bn/moving_mean:0 (16,)
+70 ResNet/res1.6/h1_bn/moving_variance:0 (16,)
+71 ResNet/res1.6/h2_conv/conv_weight:0 (3, 3, 16, 16)
+72 ResNet/res1.7/h0_bn/beta:0 (16,)
+73 ResNet/res1.7/h0_bn/gamma:0 (16,)
+74 ResNet/res1.7/h0_bn/moving_mean:0 (16,)
+75 ResNet/res1.7/h0_bn/moving_variance:0 (16,)
+76 ResNet/res1.7/h1_conv/conv_weight:0 (3, 3, 16, 16)
+77 ResNet/res1.7/h1_bn/beta:0 (16,)
+78 ResNet/res1.7/h1_bn/gamma:0 (16,)
+79 ResNet/res1.7/h1_bn/moving_mean:0 (16,)
+80 ResNet/res1.7/h1_bn/moving_variance:0 (16,)
+81 ResNet/res1.7/h2_conv/conv_weight:0 (3, 3, 16, 16)
+82 ResNet/res1.8/h0_bn/beta:0 (16,)
+83 ResNet/res1.8/h0_bn/gamma:0 (16,)
+84 ResNet/res1.8/h0_bn/moving_mean:0 (16,)
+85 ResNet/res1.8/h0_bn/moving_variance:0 (16,)
+86 ResNet/res1.8/h1_conv/conv_weight:0 (3, 3, 16, 16)
+87 ResNet/res1.8/h1_bn/beta:0 (16,)
+88 ResNet/res1.8/h1_bn/gamma:0 (16,)
+89 ResNet/res1.8/h1_bn/moving_mean:0 (16,)
+90 ResNet/res1.8/h1_bn/moving_variance:0 (16,)
+91 ResNet/res1.8/h2_conv/conv_weight:0 (3, 3, 16, 16)
+92 ResNet/res1.9/h0_bn/beta:0 (16,)
+93 ResNet/res1.9/h0_bn/gamma:0 (16,)
+94 ResNet/res1.9/h0_bn/moving_mean:0 (16,)
+95 ResNet/res1.9/h0_bn/moving_variance:0 (16,)
+96 ResNet/res1.9/h1_conv/conv_weight:0 (3, 3, 16, 16)
+97 ResNet/res1.9/h1_bn/beta:0 (16,)
+98 ResNet/res1.9/h1_bn/gamma:0 (16,)
+99 ResNet/res1.9/h1_bn/moving_mean:0 (16,)
+100 ResNet/res1.9/h1_bn/moving_variance:0 (16,)
+101 ResNet/res1.9/h2_conv/conv_weight:0 (3, 3, 16, 16)
+102 ResNet/res1.10/h0_bn/beta:0 (16,)
+103 ResNet/res1.10/h0_bn/gamma:0 (16,)
+104 ResNet/res1.10/h0_bn/moving_mean:0 (16,)
+105 ResNet/res1.10/h0_bn/moving_variance:0 (16,)
+106 ResNet/res1.10/h1_conv/conv_weight:0 (3, 3, 16, 16)
+107 ResNet/res1.10/h1_bn/beta:0 (16,)
+108 ResNet/res1.10/h1_bn/gamma:0 (16,)
+109 ResNet/res1.10/h1_bn/moving_mean:0 (16,)
+110 ResNet/res1.10/h1_bn/moving_variance:0 (16,)
+111 ResNet/res1.10/h2_conv/conv_weight:0 (3, 3, 16, 16)
+112 ResNet/res1.11/h0_bn/beta:0 (16,)
+113 ResNet/res1.11/h0_bn/gamma:0 (16,)
+114 ResNet/res1.11/h0_bn/moving_mean:0 (16,)
+115 ResNet/res1.11/h0_bn/moving_variance:0 (16,)
+116 ResNet/res1.11/h1_conv/conv_weight:0 (3, 3, 16, 16)
+117 ResNet/res1.11/h1_bn/beta:0 (16,)
+118 ResNet/res1.11/h1_bn/gamma:0 (16,)
+119 ResNet/res1.11/h1_bn/moving_mean:0 (16,)
+120 ResNet/res1.11/h1_bn/moving_variance:0 (16,)
+121 ResNet/res1.11/h2_conv/conv_weight:0 (3, 3, 16, 16)
+122 ResNet/res1.12/h0_bn/beta:0 (16,)
+123 ResNet/res1.12/h0_bn/gamma:0 (16,)
+124 ResNet/res1.12/h0_bn/moving_mean:0 (16,)
+125 ResNet/res1.12/h0_bn/moving_variance:0 (16,)
+126 ResNet/res1.12/h1_conv/conv_weight:0 (3, 3, 16, 16)
+127 ResNet/res1.12/h1_bn/beta:0 (16,)
+128 ResNet/res1.12/h1_bn/gamma:0 (16,)
+129 ResNet/res1.12/h1_bn/moving_mean:0 (16,)
+130 ResNet/res1.12/h1_bn/moving_variance:0 (16,)
+131 ResNet/res1.12/h2_conv/conv_weight:0 (3, 3, 16, 16)
+132 ResNet/res1.13/h0_bn/beta:0 (16,)
+133 ResNet/res1.13/h0_bn/gamma:0 (16,)
+134 ResNet/res1.13/h0_bn/moving_mean:0 (16,)
+135 ResNet/res1.13/h0_bn/moving_variance:0 (16,)
+136 ResNet/res1.13/h1_conv/conv_weight:0 (3, 3, 16, 16)
+137 ResNet/res1.13/h1_bn/beta:0 (16,)
+138 ResNet/res1.13/h1_bn/gamma:0 (16,)
+139 ResNet/res1.13/h1_bn/moving_mean:0 (16,)
+140 ResNet/res1.13/h1_bn/moving_variance:0 (16,)
+141 ResNet/res1.13/h2_conv/conv_weight:0 (3, 3, 16, 16)
+142 ResNet/res1.14/h0_bn/beta:0 (16,)
+143 ResNet/res1.14/h0_bn/gamma:0 (16,)
+144 ResNet/res1.14/h0_bn/moving_mean:0 (16,)
+145 ResNet/res1.14/h0_bn/moving_variance:0 (16,)
+146 ResNet/res1.14/h1_conv/conv_weight:0 (3, 3, 16, 16)
+147 ResNet/res1.14/h1_bn/beta:0 (16,)
+148 ResNet/res1.14/h1_bn/gamma:0 (16,)
+149 ResNet/res1.14/h1_bn/moving_mean:0 (16,)
+150 ResNet/res1.14/h1_bn/moving_variance:0 (16,)
+151 ResNet/res1.14/h2_conv/conv_weight:0 (3, 3, 16, 16)
+152 ResNet/res1.15/h0_bn/beta:0 (16,)
+153 ResNet/res1.15/h0_bn/gamma:0 (16,)
+154 ResNet/res1.15/h0_bn/moving_mean:0 (16,)
+155 ResNet/res1.15/h0_bn/moving_variance:0 (16,)
+156 ResNet/res1.15/h1_conv/conv_weight:0 (3, 3, 16, 16)
+157 ResNet/res1.15/h1_bn/beta:0 (16,)
+158 ResNet/res1.15/h1_bn/gamma:0 (16,)
+159 ResNet/res1.15/h1_bn/moving_mean:0 (16,)
+160 ResNet/res1.15/h1_bn/moving_variance:0 (16,)
+161 ResNet/res1.15/h2_conv/conv_weight:0 (3, 3, 16, 16)
+162 ResNet/res1.16/h0_bn/beta:0 (16,)
+163 ResNet/res1.16/h0_bn/gamma:0 (16,)
+164 ResNet/res1.16/h0_bn/moving_mean:0 (16,)
+165 ResNet/res1.16/h0_bn/moving_variance:0 (16,)
+166 ResNet/res1.16/h1_conv/conv_weight:0 (3, 3, 16, 16)
+167 ResNet/res1.16/h1_bn/beta:0 (16,)
+168 ResNet/res1.16/h1_bn/gamma:0 (16,)
+169 ResNet/res1.16/h1_bn/moving_mean:0 (16,)
+170 ResNet/res1.16/h1_bn/moving_variance:0 (16,)
+171 ResNet/res1.16/h2_conv/conv_weight:0 (3, 3, 16, 16)
+172 ResNet/res1.17/h0_bn/beta:0 (16,)
+173 ResNet/res1.17/h0_bn/gamma:0 (16,)
+174 ResNet/res1.17/h0_bn/moving_mean:0 (16,)
+175 ResNet/res1.17/h0_bn/moving_variance:0 (16,)
+176 ResNet/res1.17/h1_conv/conv_weight:0 (3, 3, 16, 16)
+177 ResNet/res1.17/h1_bn/beta:0 (16,)
+178 ResNet/res1.17/h1_bn/gamma:0 (16,)
+179 ResNet/res1.17/h1_bn/moving_mean:0 (16,)
+180 ResNet/res1.17/h1_bn/moving_variance:0 (16,)
+181 ResNet/res1.17/h2_conv/conv_weight:0 (3, 3, 16, 16)
+182 ResNet/res2.0/h0_bn/beta:0 (16,)
+183 ResNet/res2.0/h0_bn/gamma:0 (16,)
+184 ResNet/res2.0/h0_bn/moving_mean:0 (16,)
+185 ResNet/res2.0/h0_bn/moving_variance:0 (16,)
+186 ResNet/res2.0/h1_conv/conv_weight:0 (3, 3, 16, 32)
+187 ResNet/res2.0/h1_bn/beta:0 (32,)
+188 ResNet/res2.0/h1_bn/gamma:0 (32,)
+189 ResNet/res2.0/h1_bn/moving_mean:0 (32,)
+190 ResNet/res2.0/h1_bn/moving_variance:0 (32,)
+191 ResNet/res2.0/h2_conv/conv_weight:0 (3, 3, 32, 32)
+192 ResNet/res2.1/h0_bn/beta:0 (32,)
+193 ResNet/res2.1/h0_bn/gamma:0 (32,)
+194 ResNet/res2.1/h0_bn/moving_mean:0 (32,)
+195 ResNet/res2.1/h0_bn/moving_variance:0 (32,)
+196 ResNet/res2.1/h1_conv/conv_weight:0 (3, 3, 32, 32)
+197 ResNet/res2.1/h1_bn/beta:0 (32,)
+198 ResNet/res2.1/h1_bn/gamma:0 (32,)
+199 ResNet/res2.1/h1_bn/moving_mean:0 (32,)
+200 ResNet/res2.1/h1_bn/moving_variance:0 (32,)
+201 ResNet/res2.1/h2_conv/conv_weight:0 (3, 3, 32, 32)
+202 ResNet/res2.2/h0_bn/beta:0 (32,)
+203 ResNet/res2.2/h0_bn/gamma:0 (32,)
+204 ResNet/res2.2/h0_bn/moving_mean:0 (32,)
+205 ResNet/res2.2/h0_bn/moving_variance:0 (32,)
+206 ResNet/res2.2/h1_conv/conv_weight:0 (3, 3, 32, 32)
+207 ResNet/res2.2/h1_bn/beta:0 (32,)
+208 ResNet/res2.2/h1_bn/gamma:0 (32,)
+209 ResNet/res2.2/h1_bn/moving_mean:0 (32,)
+210 ResNet/res2.2/h1_bn/moving_variance:0 (32,)
+211 ResNet/res2.2/h2_conv/conv_weight:0 (3, 3, 32, 32)
+212 ResNet/res2.3/h0_bn/beta:0 (32,)
+213 ResNet/res2.3/h0_bn/gamma:0 (32,)
+214 ResNet/res2.3/h0_bn/moving_mean:0 (32,)
+215 ResNet/res2.3/h0_bn/moving_variance:0 (32,)
+216 ResNet/res2.3/h1_conv/conv_weight:0 (3, 3, 32, 32)
+217 ResNet/res2.3/h1_bn/beta:0 (32,)
+218 ResNet/res2.3/h1_bn/gamma:0 (32,)
+219 ResNet/res2.3/h1_bn/moving_mean:0 (32,)
+220 ResNet/res2.3/h1_bn/moving_variance:0 (32,)
+221 ResNet/res2.3/h2_conv/conv_weight:0 (3, 3, 32, 32)
+222 ResNet/res2.4/h0_bn/beta:0 (32,)
+223 ResNet/res2.4/h0_bn/gamma:0 (32,)
+224 ResNet/res2.4/h0_bn/moving_mean:0 (32,)
+225 ResNet/res2.4/h0_bn/moving_variance:0 (32,)
+226 ResNet/res2.4/h1_conv/conv_weight:0 (3, 3, 32, 32)
+227 ResNet/res2.4/h1_bn/beta:0 (32,)
+228 ResNet/res2.4/h1_bn/gamma:0 (32,)
+229 ResNet/res2.4/h1_bn/moving_mean:0 (32,)
+230 ResNet/res2.4/h1_bn/moving_variance:0 (32,)
+231 ResNet/res2.4/h2_conv/conv_weight:0 (3, 3, 32, 32)
+232 ResNet/res2.5/h0_bn/beta:0 (32,)
+233 ResNet/res2.5/h0_bn/gamma:0 (32,)
+234 ResNet/res2.5/h0_bn/moving_mean:0 (32,)
+235 ResNet/res2.5/h0_bn/moving_variance:0 (32,)
+236 ResNet/res2.5/h1_conv/conv_weight:0 (3, 3, 32, 32)
+237 ResNet/res2.5/h1_bn/beta:0 (32,)
+238 ResNet/res2.5/h1_bn/gamma:0 (32,)
+239 ResNet/res2.5/h1_bn/moving_mean:0 (32,)
+240 ResNet/res2.5/h1_bn/moving_variance:0 (32,)
+241 ResNet/res2.5/h2_conv/conv_weight:0 (3, 3, 32, 32)
+242 ResNet/res2.6/h0_bn/beta:0 (32,)
+243 ResNet/res2.6/h0_bn/gamma:0 (32,)
+244 ResNet/res2.6/h0_bn/moving_mean:0 (32,)
+245 ResNet/res2.6/h0_bn/moving_variance:0 (32,)
+246 ResNet/res2.6/h1_conv/conv_weight:0 (3, 3, 32, 32)
+247 ResNet/res2.6/h1_bn/beta:0 (32,)
+248 ResNet/res2.6/h1_bn/gamma:0 (32,)
+249 ResNet/res2.6/h1_bn/moving_mean:0 (32,)
+250 ResNet/res2.6/h1_bn/moving_variance:0 (32,)
+251 ResNet/res2.6/h2_conv/conv_weight:0 (3, 3, 32, 32)
+252 ResNet/res2.7/h0_bn/beta:0 (32,)
+253 ResNet/res2.7/h0_bn/gamma:0 (32,)
+254 ResNet/res2.7/h0_bn/moving_mean:0 (32,)
+255 ResNet/res2.7/h0_bn/moving_variance:0 (32,)
+256 ResNet/res2.7/h1_conv/conv_weight:0 (3, 3, 32, 32)
+257 ResNet/res2.7/h1_bn/beta:0 (32,)
+258 ResNet/res2.7/h1_bn/gamma:0 (32,)
+259 ResNet/res2.7/h1_bn/moving_mean:0 (32,)
+260 ResNet/res2.7/h1_bn/moving_variance:0 (32,)
+261 ResNet/res2.7/h2_conv/conv_weight:0 (3, 3, 32, 32)
+262 ResNet/res2.8/h0_bn/beta:0 (32,)
+263 ResNet/res2.8/h0_bn/gamma:0 (32,)
+264 ResNet/res2.8/h0_bn/moving_mean:0 (32,)
+265 ResNet/res2.8/h0_bn/moving_variance:0 (32,)
+266 ResNet/res2.8/h1_conv/conv_weight:0 (3, 3, 32, 32)
+267 ResNet/res2.8/h1_bn/beta:0 (32,)
+268 ResNet/res2.8/h1_bn/gamma:0 (32,)
+269 ResNet/res2.8/h1_bn/moving_mean:0 (32,)
+270 ResNet/res2.8/h1_bn/moving_variance:0 (32,)
+271 ResNet/res2.8/h2_conv/conv_weight:0 (3, 3, 32, 32)
+272 ResNet/res2.9/h0_bn/beta:0 (32,)
+273 ResNet/res2.9/h0_bn/gamma:0 (32,)
+274 ResNet/res2.9/h0_bn/moving_mean:0 (32,)
+275 ResNet/res2.9/h0_bn/moving_variance:0 (32,)
+276 ResNet/res2.9/h1_conv/conv_weight:0 (3, 3, 32, 32)
+277 ResNet/res2.9/h1_bn/beta:0 (32,)
+278 ResNet/res2.9/h1_bn/gamma:0 (32,)
+279 ResNet/res2.9/h1_bn/moving_mean:0 (32,)
+280 ResNet/res2.9/h1_bn/moving_variance:0 (32,)
+281 ResNet/res2.9/h2_conv/conv_weight:0 (3, 3, 32, 32)
+282 ResNet/res2.10/h0_bn/beta:0 (32,)
+283 ResNet/res2.10/h0_bn/gamma:0 (32,)
+284 ResNet/res2.10/h0_bn/moving_mean:0 (32,)
+285 ResNet/res2.10/h0_bn/moving_variance:0 (32,)
+286 ResNet/res2.10/h1_conv/conv_weight:0 (3, 3, 32, 32)
+287 ResNet/res2.10/h1_bn/beta:0 (32,)
+288 ResNet/res2.10/h1_bn/gamma:0 (32,)
+289 ResNet/res2.10/h1_bn/moving_mean:0 (32,)
+290 ResNet/res2.10/h1_bn/moving_variance:0 (32,)
+291 ResNet/res2.10/h2_conv/conv_weight:0 (3, 3, 32, 32)
+292 ResNet/res2.11/h0_bn/beta:0 (32,)
+293 ResNet/res2.11/h0_bn/gamma:0 (32,)
+294 ResNet/res2.11/h0_bn/moving_mean:0 (32,)
+295 ResNet/res2.11/h0_bn/moving_variance:0 (32,)
+296 ResNet/res2.11/h1_conv/conv_weight:0 (3, 3, 32, 32)
+297 ResNet/res2.11/h1_bn/beta:0 (32,)
+298 ResNet/res2.11/h1_bn/gamma:0 (32,)
+299 ResNet/res2.11/h1_bn/moving_mean:0 (32,)
+300 ResNet/res2.11/h1_bn/moving_variance:0 (32,)
+301 ResNet/res2.11/h2_conv/conv_weight:0 (3, 3, 32, 32)
+302 ResNet/res2.12/h0_bn/beta:0 (32,)
+303 ResNet/res2.12/h0_bn/gamma:0 (32,)
+304 ResNet/res2.12/h0_bn/moving_mean:0 (32,)
+305 ResNet/res2.12/h0_bn/moving_variance:0 (32,)
+306 ResNet/res2.12/h1_conv/conv_weight:0 (3, 3, 32, 32)
+307 ResNet/res2.12/h1_bn/beta:0 (32,)
+308 ResNet/res2.12/h1_bn/gamma:0 (32,)
+309 ResNet/res2.12/h1_bn/moving_mean:0 (32,)
+310 ResNet/res2.12/h1_bn/moving_variance:0 (32,)
+311 ResNet/res2.12/h2_conv/conv_weight:0 (3, 3, 32, 32)
+312 ResNet/res2.13/h0_bn/beta:0 (32,)
+313 ResNet/res2.13/h0_bn/gamma:0 (32,)
+314 ResNet/res2.13/h0_bn/moving_mean:0 (32,)
+315 ResNet/res2.13/h0_bn/moving_variance:0 (32,)
+316 ResNet/res2.13/h1_conv/conv_weight:0 (3, 3, 32, 32)
+317 ResNet/res2.13/h1_bn/beta:0 (32,)
+318 ResNet/res2.13/h1_bn/gamma:0 (32,)
+319 ResNet/res2.13/h1_bn/moving_mean:0 (32,)
+320 ResNet/res2.13/h1_bn/moving_variance:0 (32,)
+321 ResNet/res2.13/h2_conv/conv_weight:0 (3, 3, 32, 32)
+322 ResNet/res2.14/h0_bn/beta:0 (32,)
+323 ResNet/res2.14/h0_bn/gamma:0 (32,)
+324 ResNet/res2.14/h0_bn/moving_mean:0 (32,)
+325 ResNet/res2.14/h0_bn/moving_variance:0 (32,)
+326 ResNet/res2.14/h1_conv/conv_weight:0 (3, 3, 32, 32)
+327 ResNet/res2.14/h1_bn/beta:0 (32,)
+328 ResNet/res2.14/h1_bn/gamma:0 (32,)
+329 ResNet/res2.14/h1_bn/moving_mean:0 (32,)
+330 ResNet/res2.14/h1_bn/moving_variance:0 (32,)
+331 ResNet/res2.14/h2_conv/conv_weight:0 (3, 3, 32, 32)
+332 ResNet/res2.15/h0_bn/beta:0 (32,)
+333 ResNet/res2.15/h0_bn/gamma:0 (32,)
+334 ResNet/res2.15/h0_bn/moving_mean:0 (32,)
+335 ResNet/res2.15/h0_bn/moving_variance:0 (32,)
+336 ResNet/res2.15/h1_conv/conv_weight:0 (3, 3, 32, 32)
+337 ResNet/res2.15/h1_bn/beta:0 (32,)
+338 ResNet/res2.15/h1_bn/gamma:0 (32,)
+339 ResNet/res2.15/h1_bn/moving_mean:0 (32,)
+340 ResNet/res2.15/h1_bn/moving_variance:0 (32,)
+341 ResNet/res2.15/h2_conv/conv_weight:0 (3, 3, 32, 32)
+342 ResNet/res2.16/h0_bn/beta:0 (32,)
+343 ResNet/res2.16/h0_bn/gamma:0 (32,)
+344 ResNet/res2.16/h0_bn/moving_mean:0 (32,)
+345 ResNet/res2.16/h0_bn/moving_variance:0 (32,)
+346 ResNet/res2.16/h1_conv/conv_weight:0 (3, 3, 32, 32)
+347 ResNet/res2.16/h1_bn/beta:0 (32,)
+348 ResNet/res2.16/h1_bn/gamma:0 (32,)
+349 ResNet/res2.16/h1_bn/moving_mean:0 (32,)
+350 ResNet/res2.16/h1_bn/moving_variance:0 (32,)
+351 ResNet/res2.16/h2_conv/conv_weight:0 (3, 3, 32, 32)
+352 ResNet/res2.17/h0_bn/beta:0 (32,)
+353 ResNet/res2.17/h0_bn/gamma:0 (32,)
+354 ResNet/res2.17/h0_bn/moving_mean:0 (32,)
+355 ResNet/res2.17/h0_bn/moving_variance:0 (32,)
+356 ResNet/res2.17/h1_conv/conv_weight:0 (3, 3, 32, 32)
+357 ResNet/res2.17/h1_bn/beta:0 (32,)
+358 ResNet/res2.17/h1_bn/gamma:0 (32,)
+359 ResNet/res2.17/h1_bn/moving_mean:0 (32,)
+360 ResNet/res2.17/h1_bn/moving_variance:0 (32,)
+361 ResNet/res2.17/h2_conv/conv_weight:0 (3, 3, 32, 32)
+362 ResNet/res3.0/h0_bn/beta:0 (32,)
+363 ResNet/res3.0/h0_bn/gamma:0 (32,)
+364 ResNet/res3.0/h0_bn/moving_mean:0 (32,)
+365 ResNet/res3.0/h0_bn/moving_variance:0 (32,)
+366 ResNet/res3.0/h1_conv/conv_weight:0 (3, 3, 32, 64)
+367 ResNet/res3.0/h1_bn/beta:0 (64,)
+368 ResNet/res3.0/h1_bn/gamma:0 (64,)
+369 ResNet/res3.0/h1_bn/moving_mean:0 (64,)
+370 ResNet/res3.0/h1_bn/moving_variance:0 (64,)
+371 ResNet/res3.0/h2_conv/conv_weight:0 (3, 3, 64, 64)
+372 ResNet/res3.1/h0_bn/beta:0 (64,)
+373 ResNet/res3.1/h0_bn/gamma:0 (64,)
+374 ResNet/res3.1/h0_bn/moving_mean:0 (64,)
+375 ResNet/res3.1/h0_bn/moving_variance:0 (64,)
+376 ResNet/res3.1/h1_conv/conv_weight:0 (3, 3, 64, 64)
+377 ResNet/res3.1/h1_bn/beta:0 (64,)
+378 ResNet/res3.1/h1_bn/gamma:0 (64,)
+379 ResNet/res3.1/h1_bn/moving_mean:0 (64,)
+380 ResNet/res3.1/h1_bn/moving_variance:0 (64,)
+381 ResNet/res3.1/h2_conv/conv_weight:0 (3, 3, 64, 64)
+382 ResNet/res3.2/h0_bn/beta:0 (64,)
+383 ResNet/res3.2/h0_bn/gamma:0 (64,)
+384 ResNet/res3.2/h0_bn/moving_mean:0 (64,)
+385 ResNet/res3.2/h0_bn/moving_variance:0 (64,)
+386 ResNet/res3.2/h1_conv/conv_weight:0 (3, 3, 64, 64)
+387 ResNet/res3.2/h1_bn/beta:0 (64,)
+388 ResNet/res3.2/h1_bn/gamma:0 (64,)
+389 ResNet/res3.2/h1_bn/moving_mean:0 (64,)
+390 ResNet/res3.2/h1_bn/moving_variance:0 (64,)
+391 ResNet/res3.2/h2_conv/conv_weight:0 (3, 3, 64, 64)
+392 ResNet/res3.3/h0_bn/beta:0 (64,)
+393 ResNet/res3.3/h0_bn/gamma:0 (64,)
+394 ResNet/res3.3/h0_bn/moving_mean:0 (64,)
+395 ResNet/res3.3/h0_bn/moving_variance:0 (64,)
+396 ResNet/res3.3/h1_conv/conv_weight:0 (3, 3, 64, 64)
+397 ResNet/res3.3/h1_bn/beta:0 (64,)
+398 ResNet/res3.3/h1_bn/gamma:0 (64,)
+399 ResNet/res3.3/h1_bn/moving_mean:0 (64,)
+400 ResNet/res3.3/h1_bn/moving_variance:0 (64,)
+401 ResNet/res3.3/h2_conv/conv_weight:0 (3, 3, 64, 64)
+402 ResNet/res3.4/h0_bn/beta:0 (64,)
+403 ResNet/res3.4/h0_bn/gamma:0 (64,)
+404 ResNet/res3.4/h0_bn/moving_mean:0 (64,)
+405 ResNet/res3.4/h0_bn/moving_variance:0 (64,)
+406 ResNet/res3.4/h1_conv/conv_weight:0 (3, 3, 64, 64)
+407 ResNet/res3.4/h1_bn/beta:0 (64,)
+408 ResNet/res3.4/h1_bn/gamma:0 (64,)
+409 ResNet/res3.4/h1_bn/moving_mean:0 (64,)
+410 ResNet/res3.4/h1_bn/moving_variance:0 (64,)
+411 ResNet/res3.4/h2_conv/conv_weight:0 (3, 3, 64, 64)
+412 ResNet/res3.5/h0_bn/beta:0 (64,)
+413 ResNet/res3.5/h0_bn/gamma:0 (64,)
+414 ResNet/res3.5/h0_bn/moving_mean:0 (64,)
+415 ResNet/res3.5/h0_bn/moving_variance:0 (64,)
+416 ResNet/res3.5/h1_conv/conv_weight:0 (3, 3, 64, 64)
+417 ResNet/res3.5/h1_bn/beta:0 (64,)
+418 ResNet/res3.5/h1_bn/gamma:0 (64,)
+419 ResNet/res3.5/h1_bn/moving_mean:0 (64,)
+420 ResNet/res3.5/h1_bn/moving_variance:0 (64,)
+421 ResNet/res3.5/h2_conv/conv_weight:0 (3, 3, 64, 64)
+422 ResNet/res3.6/h0_bn/beta:0 (64,)
+423 ResNet/res3.6/h0_bn/gamma:0 (64,)
+424 ResNet/res3.6/h0_bn/moving_mean:0 (64,)
+425 ResNet/res3.6/h0_bn/moving_variance:0 (64,)
+426 ResNet/res3.6/h1_conv/conv_weight:0 (3, 3, 64, 64)
+427 ResNet/res3.6/h1_bn/beta:0 (64,)
+428 ResNet/res3.6/h1_bn/gamma:0 (64,)
+429 ResNet/res3.6/h1_bn/moving_mean:0 (64,)
+430 ResNet/res3.6/h1_bn/moving_variance:0 (64,)
+431 ResNet/res3.6/h2_conv/conv_weight:0 (3, 3, 64, 64)
+432 ResNet/res3.7/h0_bn/beta:0 (64,)
+433 ResNet/res3.7/h0_bn/gamma:0 (64,)
+434 ResNet/res3.7/h0_bn/moving_mean:0 (64,)
+435 ResNet/res3.7/h0_bn/moving_variance:0 (64,)
+436 ResNet/res3.7/h1_conv/conv_weight:0 (3, 3, 64, 64)
+437 ResNet/res3.7/h1_bn/beta:0 (64,)
+438 ResNet/res3.7/h1_bn/gamma:0 (64,)
+439 ResNet/res3.7/h1_bn/moving_mean:0 (64,)
+440 ResNet/res3.7/h1_bn/moving_variance:0 (64,)
+441 ResNet/res3.7/h2_conv/conv_weight:0 (3, 3, 64, 64)
+442 ResNet/res3.8/h0_bn/beta:0 (64,)
+443 ResNet/res3.8/h0_bn/gamma:0 (64,)
+444 ResNet/res3.8/h0_bn/moving_mean:0 (64,)
+445 ResNet/res3.8/h0_bn/moving_variance:0 (64,)
+446 ResNet/res3.8/h1_conv/conv_weight:0 (3, 3, 64, 64)
+447 ResNet/res3.8/h1_bn/beta:0 (64,)
+448 ResNet/res3.8/h1_bn/gamma:0 (64,)
+449 ResNet/res3.8/h1_bn/moving_mean:0 (64,)
+450 ResNet/res3.8/h1_bn/moving_variance:0 (64,)
+451 ResNet/res3.8/h2_conv/conv_weight:0 (3, 3, 64, 64)
+452 ResNet/res3.9/h0_bn/beta:0 (64,)
+453 ResNet/res3.9/h0_bn/gamma:0 (64,)
+454 ResNet/res3.9/h0_bn/moving_mean:0 (64,)
+455 ResNet/res3.9/h0_bn/moving_variance:0 (64,)
+456 ResNet/res3.9/h1_conv/conv_weight:0 (3, 3, 64, 64)
+457 ResNet/res3.9/h1_bn/beta:0 (64,)
+458 ResNet/res3.9/h1_bn/gamma:0 (64,)
+459 ResNet/res3.9/h1_bn/moving_mean:0 (64,)
+460 ResNet/res3.9/h1_bn/moving_variance:0 (64,)
+461 ResNet/res3.9/h2_conv/conv_weight:0 (3, 3, 64, 64)
+462 ResNet/res3.10/h0_bn/beta:0 (64,)
+463 ResNet/res3.10/h0_bn/gamma:0 (64,)
+464 ResNet/res3.10/h0_bn/moving_mean:0 (64,)
+465 ResNet/res3.10/h0_bn/moving_variance:0 (64,)
+466 ResNet/res3.10/h1_conv/conv_weight:0 (3, 3, 64, 64)
+467 ResNet/res3.10/h1_bn/beta:0 (64,)
+468 ResNet/res3.10/h1_bn/gamma:0 (64,)
+469 ResNet/res3.10/h1_bn/moving_mean:0 (64,)
+470 ResNet/res3.10/h1_bn/moving_variance:0 (64,)
+471 ResNet/res3.10/h2_conv/conv_weight:0 (3, 3, 64, 64)
+472 ResNet/res3.11/h0_bn/beta:0 (64,)
+473 ResNet/res3.11/h0_bn/gamma:0 (64,)
+474 ResNet/res3.11/h0_bn/moving_mean:0 (64,)
+475 ResNet/res3.11/h0_bn/moving_variance:0 (64,)
+476 ResNet/res3.11/h1_conv/conv_weight:0 (3, 3, 64, 64)
+477 ResNet/res3.11/h1_bn/beta:0 (64,)
+478 ResNet/res3.11/h1_bn/gamma:0 (64,)
+479 ResNet/res3.11/h1_bn/moving_mean:0 (64,)
+480 ResNet/res3.11/h1_bn/moving_variance:0 (64,)
+481 ResNet/res3.11/h2_conv/conv_weight:0 (3, 3, 64, 64)
+482 ResNet/res3.12/h0_bn/beta:0 (64,)
+483 ResNet/res3.12/h0_bn/gamma:0 (64,)
+484 ResNet/res3.12/h0_bn/moving_mean:0 (64,)
+485 ResNet/res3.12/h0_bn/moving_variance:0 (64,)
+486 ResNet/res3.12/h1_conv/conv_weight:0 (3, 3, 64, 64)
+487 ResNet/res3.12/h1_bn/beta:0 (64,)
+488 ResNet/res3.12/h1_bn/gamma:0 (64,)
+489 ResNet/res3.12/h1_bn/moving_mean:0 (64,)
+490 ResNet/res3.12/h1_bn/moving_variance:0 (64,)
+491 ResNet/res3.12/h2_conv/conv_weight:0 (3, 3, 64, 64)
+492 ResNet/res3.13/h0_bn/beta:0 (64,)
+493 ResNet/res3.13/h0_bn/gamma:0 (64,)
+494 ResNet/res3.13/h0_bn/moving_mean:0 (64,)
+495 ResNet/res3.13/h0_bn/moving_variance:0 (64,)
+496 ResNet/res3.13/h1_conv/conv_weight:0 (3, 3, 64, 64)
+497 ResNet/res3.13/h1_bn/beta:0 (64,)
+498 ResNet/res3.13/h1_bn/gamma:0 (64,)
+499 ResNet/res3.13/h1_bn/moving_mean:0 (64,)
+500 ResNet/res3.13/h1_bn/moving_variance:0 (64,)
+501 ResNet/res3.13/h2_conv/conv_weight:0 (3, 3, 64, 64)
+502 ResNet/res3.14/h0_bn/beta:0 (64,)
+503 ResNet/res3.14/h0_bn/gamma:0 (64,)
+504 ResNet/res3.14/h0_bn/moving_mean:0 (64,)
+505 ResNet/res3.14/h0_bn/moving_variance:0 (64,)
+506 ResNet/res3.14/h1_conv/conv_weight:0 (3, 3, 64, 64)
+507 ResNet/res3.14/h1_bn/beta:0 (64,)
+508 ResNet/res3.14/h1_bn/gamma:0 (64,)
+509 ResNet/res3.14/h1_bn/moving_mean:0 (64,)
+510 ResNet/res3.14/h1_bn/moving_variance:0 (64,)
+511 ResNet/res3.14/h2_conv/conv_weight:0 (3, 3, 64, 64)
+512 ResNet/res3.15/h0_bn/beta:0 (64,)
+513 ResNet/res3.15/h0_bn/gamma:0 (64,)
+514 ResNet/res3.15/h0_bn/moving_mean:0 (64,)
+515 ResNet/res3.15/h0_bn/moving_variance:0 (64,)
+516 ResNet/res3.15/h1_conv/conv_weight:0 (3, 3, 64, 64)
+517 ResNet/res3.15/h1_bn/beta:0 (64,)
+518 ResNet/res3.15/h1_bn/gamma:0 (64,)
+519 ResNet/res3.15/h1_bn/moving_mean:0 (64,)
+520 ResNet/res3.15/h1_bn/moving_variance:0 (64,)
+521 ResNet/res3.15/h2_conv/conv_weight:0 (3, 3, 64, 64)
+522 ResNet/res3.16/h0_bn/beta:0 (64,)
+523 ResNet/res3.16/h0_bn/gamma:0 (64,)
+524 ResNet/res3.16/h0_bn/moving_mean:0 (64,)
+525 ResNet/res3.16/h0_bn/moving_variance:0 (64,)
+526 ResNet/res3.16/h1_conv/conv_weight:0 (3, 3, 64, 64)
+527 ResNet/res3.16/h1_bn/beta:0 (64,)
+528 ResNet/res3.16/h1_bn/gamma:0 (64,)
+529 ResNet/res3.16/h1_bn/moving_mean:0 (64,)
+530 ResNet/res3.16/h1_bn/moving_variance:0 (64,)
+531 ResNet/res3.16/h2_conv/conv_weight:0 (3, 3, 64, 64)
+532 ResNet/res3.17/h0_bn/beta:0 (64,)
+533 ResNet/res3.17/h0_bn/gamma:0 (64,)
+534 ResNet/res3.17/h0_bn/moving_mean:0 (64,)
+535 ResNet/res3.17/h0_bn/moving_variance:0 (64,)
+536 ResNet/res3.17/h1_conv/conv_weight:0 (3, 3, 64, 64)
+537 ResNet/res3.17/h1_bn/beta:0 (64,)
+538 ResNet/res3.17/h1_bn/gamma:0 (64,)
+539 ResNet/res3.17/h1_bn/moving_mean:0 (64,)
+540 ResNet/res3.17/h1_bn/moving_variance:0 (64,)
+541 ResNet/res3.17/h2_conv/conv_weight:0 (3, 3, 64, 64)
+542 ResNet/r4_bn/beta:0 (64,)
+543 ResNet/r4_bn/gamma:0 (64,)
+544 ResNet/r4_bn/moving_mean:0 (64,)
+545 ResNet/r4_bn/moving_variance:0 (64,)
+546 ResNet/fc/fc_weight:0 (64, 10)
+547 ResNet/fc/fc_bias:0 (10,)
+548 ResNet/r0_conv/conv_weight/Momentum:0 (3, 3, 3, 16)
+549 ResNet/r0_bn/beta/Momentum:0 (16,)
+550 ResNet/r0_bn/gamma/Momentum:0 (16,)
+551 ResNet/res1.0/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+552 ResNet/res1.0/h1_bn/beta/Momentum:0 (16,)
+553 ResNet/res1.0/h1_bn/gamma/Momentum:0 (16,)
+554 ResNet/res1.0/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+555 ResNet/res1.1/h0_bn/beta/Momentum:0 (16,)
+556 ResNet/res1.1/h0_bn/gamma/Momentum:0 (16,)
+557 ResNet/res1.1/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+558 ResNet/res1.1/h1_bn/beta/Momentum:0 (16,)
+559 ResNet/res1.1/h1_bn/gamma/Momentum:0 (16,)
+560 ResNet/res1.1/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+561 ResNet/res1.2/h0_bn/beta/Momentum:0 (16,)
+562 ResNet/res1.2/h0_bn/gamma/Momentum:0 (16,)
+563 ResNet/res1.2/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+564 ResNet/res1.2/h1_bn/beta/Momentum:0 (16,)
+565 ResNet/res1.2/h1_bn/gamma/Momentum:0 (16,)
+566 ResNet/res1.2/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+567 ResNet/res1.3/h0_bn/beta/Momentum:0 (16,)
+568 ResNet/res1.3/h0_bn/gamma/Momentum:0 (16,)
+569 ResNet/res1.3/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+570 ResNet/res1.3/h1_bn/beta/Momentum:0 (16,)
+571 ResNet/res1.3/h1_bn/gamma/Momentum:0 (16,)
+572 ResNet/res1.3/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+573 ResNet/res1.4/h0_bn/beta/Momentum:0 (16,)
+574 ResNet/res1.4/h0_bn/gamma/Momentum:0 (16,)
+575 ResNet/res1.4/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+576 ResNet/res1.4/h1_bn/beta/Momentum:0 (16,)
+577 ResNet/res1.4/h1_bn/gamma/Momentum:0 (16,)
+578 ResNet/res1.4/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+579 ResNet/res1.5/h0_bn/beta/Momentum:0 (16,)
+580 ResNet/res1.5/h0_bn/gamma/Momentum:0 (16,)
+581 ResNet/res1.5/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+582 ResNet/res1.5/h1_bn/beta/Momentum:0 (16,)
+583 ResNet/res1.5/h1_bn/gamma/Momentum:0 (16,)
+584 ResNet/res1.5/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+585 ResNet/res1.6/h0_bn/beta/Momentum:0 (16,)
+586 ResNet/res1.6/h0_bn/gamma/Momentum:0 (16,)
+587 ResNet/res1.6/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+588 ResNet/res1.6/h1_bn/beta/Momentum:0 (16,)
+589 ResNet/res1.6/h1_bn/gamma/Momentum:0 (16,)
+590 ResNet/res1.6/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+591 ResNet/res1.7/h0_bn/beta/Momentum:0 (16,)
+592 ResNet/res1.7/h0_bn/gamma/Momentum:0 (16,)
+593 ResNet/res1.7/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+594 ResNet/res1.7/h1_bn/beta/Momentum:0 (16,)
+595 ResNet/res1.7/h1_bn/gamma/Momentum:0 (16,)
+596 ResNet/res1.7/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+597 ResNet/res1.8/h0_bn/beta/Momentum:0 (16,)
+598 ResNet/res1.8/h0_bn/gamma/Momentum:0 (16,)
+599 ResNet/res1.8/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+600 ResNet/res1.8/h1_bn/beta/Momentum:0 (16,)
+601 ResNet/res1.8/h1_bn/gamma/Momentum:0 (16,)
+602 ResNet/res1.8/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+603 ResNet/res1.9/h0_bn/beta/Momentum:0 (16,)
+604 ResNet/res1.9/h0_bn/gamma/Momentum:0 (16,)
+605 ResNet/res1.9/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+606 ResNet/res1.9/h1_bn/beta/Momentum:0 (16,)
+607 ResNet/res1.9/h1_bn/gamma/Momentum:0 (16,)
+608 ResNet/res1.9/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+609 ResNet/res1.10/h0_bn/beta/Momentum:0 (16,)
+610 ResNet/res1.10/h0_bn/gamma/Momentum:0 (16,)
+611 ResNet/res1.10/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+612 ResNet/res1.10/h1_bn/beta/Momentum:0 (16,)
+613 ResNet/res1.10/h1_bn/gamma/Momentum:0 (16,)
+614 ResNet/res1.10/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+615 ResNet/res1.11/h0_bn/beta/Momentum:0 (16,)
+616 ResNet/res1.11/h0_bn/gamma/Momentum:0 (16,)
+617 ResNet/res1.11/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+618 ResNet/res1.11/h1_bn/beta/Momentum:0 (16,)
+619 ResNet/res1.11/h1_bn/gamma/Momentum:0 (16,)
+620 ResNet/res1.11/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+621 ResNet/res1.12/h0_bn/beta/Momentum:0 (16,)
+622 ResNet/res1.12/h0_bn/gamma/Momentum:0 (16,)
+623 ResNet/res1.12/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+624 ResNet/res1.12/h1_bn/beta/Momentum:0 (16,)
+625 ResNet/res1.12/h1_bn/gamma/Momentum:0 (16,)
+626 ResNet/res1.12/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+627 ResNet/res1.13/h0_bn/beta/Momentum:0 (16,)
+628 ResNet/res1.13/h0_bn/gamma/Momentum:0 (16,)
+629 ResNet/res1.13/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+630 ResNet/res1.13/h1_bn/beta/Momentum:0 (16,)
+631 ResNet/res1.13/h1_bn/gamma/Momentum:0 (16,)
+632 ResNet/res1.13/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+633 ResNet/res1.14/h0_bn/beta/Momentum:0 (16,)
+634 ResNet/res1.14/h0_bn/gamma/Momentum:0 (16,)
+635 ResNet/res1.14/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+636 ResNet/res1.14/h1_bn/beta/Momentum:0 (16,)
+637 ResNet/res1.14/h1_bn/gamma/Momentum:0 (16,)
+638 ResNet/res1.14/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+639 ResNet/res1.15/h0_bn/beta/Momentum:0 (16,)
+640 ResNet/res1.15/h0_bn/gamma/Momentum:0 (16,)
+641 ResNet/res1.15/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+642 ResNet/res1.15/h1_bn/beta/Momentum:0 (16,)
+643 ResNet/res1.15/h1_bn/gamma/Momentum:0 (16,)
+644 ResNet/res1.15/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+645 ResNet/res1.16/h0_bn/beta/Momentum:0 (16,)
+646 ResNet/res1.16/h0_bn/gamma/Momentum:0 (16,)
+647 ResNet/res1.16/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+648 ResNet/res1.16/h1_bn/beta/Momentum:0 (16,)
+649 ResNet/res1.16/h1_bn/gamma/Momentum:0 (16,)
+650 ResNet/res1.16/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+651 ResNet/res1.17/h0_bn/beta/Momentum:0 (16,)
+652 ResNet/res1.17/h0_bn/gamma/Momentum:0 (16,)
+653 ResNet/res1.17/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+654 ResNet/res1.17/h1_bn/beta/Momentum:0 (16,)
+655 ResNet/res1.17/h1_bn/gamma/Momentum:0 (16,)
+656 ResNet/res1.17/h2_conv/conv_weight/Momentum:0 (3, 3, 16, 16)
+657 ResNet/res2.0/h0_bn/beta/Momentum:0 (16,)
+658 ResNet/res2.0/h0_bn/gamma/Momentum:0 (16,)
+659 ResNet/res2.0/h1_conv/conv_weight/Momentum:0 (3, 3, 16, 32)
+660 ResNet/res2.0/h1_bn/beta/Momentum:0 (32,)
+661 ResNet/res2.0/h1_bn/gamma/Momentum:0 (32,)
+662 ResNet/res2.0/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+663 ResNet/res2.1/h0_bn/beta/Momentum:0 (32,)
+664 ResNet/res2.1/h0_bn/gamma/Momentum:0 (32,)
+665 ResNet/res2.1/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+666 ResNet/res2.1/h1_bn/beta/Momentum:0 (32,)
+667 ResNet/res2.1/h1_bn/gamma/Momentum:0 (32,)
+668 ResNet/res2.1/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+669 ResNet/res2.2/h0_bn/beta/Momentum:0 (32,)
+670 ResNet/res2.2/h0_bn/gamma/Momentum:0 (32,)
+671 ResNet/res2.2/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+672 ResNet/res2.2/h1_bn/beta/Momentum:0 (32,)
+673 ResNet/res2.2/h1_bn/gamma/Momentum:0 (32,)
+674 ResNet/res2.2/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+675 ResNet/res2.3/h0_bn/beta/Momentum:0 (32,)
+676 ResNet/res2.3/h0_bn/gamma/Momentum:0 (32,)
+677 ResNet/res2.3/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+678 ResNet/res2.3/h1_bn/beta/Momentum:0 (32,)
+679 ResNet/res2.3/h1_bn/gamma/Momentum:0 (32,)
+680 ResNet/res2.3/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+681 ResNet/res2.4/h0_bn/beta/Momentum:0 (32,)
+682 ResNet/res2.4/h0_bn/gamma/Momentum:0 (32,)
+683 ResNet/res2.4/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+684 ResNet/res2.4/h1_bn/beta/Momentum:0 (32,)
+685 ResNet/res2.4/h1_bn/gamma/Momentum:0 (32,)
+686 ResNet/res2.4/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+687 ResNet/res2.5/h0_bn/beta/Momentum:0 (32,)
+688 ResNet/res2.5/h0_bn/gamma/Momentum:0 (32,)
+689 ResNet/res2.5/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+690 ResNet/res2.5/h1_bn/beta/Momentum:0 (32,)
+691 ResNet/res2.5/h1_bn/gamma/Momentum:0 (32,)
+692 ResNet/res2.5/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+693 ResNet/res2.6/h0_bn/beta/Momentum:0 (32,)
+694 ResNet/res2.6/h0_bn/gamma/Momentum:0 (32,)
+695 ResNet/res2.6/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+696 ResNet/res2.6/h1_bn/beta/Momentum:0 (32,)
+697 ResNet/res2.6/h1_bn/gamma/Momentum:0 (32,)
+698 ResNet/res2.6/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+699 ResNet/res2.7/h0_bn/beta/Momentum:0 (32,)
+700 ResNet/res2.7/h0_bn/gamma/Momentum:0 (32,)
+701 ResNet/res2.7/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+702 ResNet/res2.7/h1_bn/beta/Momentum:0 (32,)
+703 ResNet/res2.7/h1_bn/gamma/Momentum:0 (32,)
+704 ResNet/res2.7/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+705 ResNet/res2.8/h0_bn/beta/Momentum:0 (32,)
+706 ResNet/res2.8/h0_bn/gamma/Momentum:0 (32,)
+707 ResNet/res2.8/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+708 ResNet/res2.8/h1_bn/beta/Momentum:0 (32,)
+709 ResNet/res2.8/h1_bn/gamma/Momentum:0 (32,)
+710 ResNet/res2.8/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+711 ResNet/res2.9/h0_bn/beta/Momentum:0 (32,)
+712 ResNet/res2.9/h0_bn/gamma/Momentum:0 (32,)
+713 ResNet/res2.9/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+714 ResNet/res2.9/h1_bn/beta/Momentum:0 (32,)
+715 ResNet/res2.9/h1_bn/gamma/Momentum:0 (32,)
+716 ResNet/res2.9/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+717 ResNet/res2.10/h0_bn/beta/Momentum:0 (32,)
+718 ResNet/res2.10/h0_bn/gamma/Momentum:0 (32,)
+719 ResNet/res2.10/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+720 ResNet/res2.10/h1_bn/beta/Momentum:0 (32,)
+721 ResNet/res2.10/h1_bn/gamma/Momentum:0 (32,)
+722 ResNet/res2.10/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+723 ResNet/res2.11/h0_bn/beta/Momentum:0 (32,)
+724 ResNet/res2.11/h0_bn/gamma/Momentum:0 (32,)
+725 ResNet/res2.11/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+726 ResNet/res2.11/h1_bn/beta/Momentum:0 (32,)
+727 ResNet/res2.11/h1_bn/gamma/Momentum:0 (32,)
+728 ResNet/res2.11/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+729 ResNet/res2.12/h0_bn/beta/Momentum:0 (32,)
+730 ResNet/res2.12/h0_bn/gamma/Momentum:0 (32,)
+731 ResNet/res2.12/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+732 ResNet/res2.12/h1_bn/beta/Momentum:0 (32,)
+733 ResNet/res2.12/h1_bn/gamma/Momentum:0 (32,)
+734 ResNet/res2.12/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+735 ResNet/res2.13/h0_bn/beta/Momentum:0 (32,)
+736 ResNet/res2.13/h0_bn/gamma/Momentum:0 (32,)
+737 ResNet/res2.13/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+738 ResNet/res2.13/h1_bn/beta/Momentum:0 (32,)
+739 ResNet/res2.13/h1_bn/gamma/Momentum:0 (32,)
+740 ResNet/res2.13/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+741 ResNet/res2.14/h0_bn/beta/Momentum:0 (32,)
+742 ResNet/res2.14/h0_bn/gamma/Momentum:0 (32,)
+743 ResNet/res2.14/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+744 ResNet/res2.14/h1_bn/beta/Momentum:0 (32,)
+745 ResNet/res2.14/h1_bn/gamma/Momentum:0 (32,)
+746 ResNet/res2.14/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+747 ResNet/res2.15/h0_bn/beta/Momentum:0 (32,)
+748 ResNet/res2.15/h0_bn/gamma/Momentum:0 (32,)
+749 ResNet/res2.15/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+750 ResNet/res2.15/h1_bn/beta/Momentum:0 (32,)
+751 ResNet/res2.15/h1_bn/gamma/Momentum:0 (32,)
+752 ResNet/res2.15/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+753 ResNet/res2.16/h0_bn/beta/Momentum:0 (32,)
+754 ResNet/res2.16/h0_bn/gamma/Momentum:0 (32,)
+755 ResNet/res2.16/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+756 ResNet/res2.16/h1_bn/beta/Momentum:0 (32,)
+757 ResNet/res2.16/h1_bn/gamma/Momentum:0 (32,)
+758 ResNet/res2.16/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+759 ResNet/res2.17/h0_bn/beta/Momentum:0 (32,)
+760 ResNet/res2.17/h0_bn/gamma/Momentum:0 (32,)
+761 ResNet/res2.17/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+762 ResNet/res2.17/h1_bn/beta/Momentum:0 (32,)
+763 ResNet/res2.17/h1_bn/gamma/Momentum:0 (32,)
+764 ResNet/res2.17/h2_conv/conv_weight/Momentum:0 (3, 3, 32, 32)
+765 ResNet/res3.0/h0_bn/beta/Momentum:0 (32,)
+766 ResNet/res3.0/h0_bn/gamma/Momentum:0 (32,)
+767 ResNet/res3.0/h1_conv/conv_weight/Momentum:0 (3, 3, 32, 64)
+768 ResNet/res3.0/h1_bn/beta/Momentum:0 (64,)
+769 ResNet/res3.0/h1_bn/gamma/Momentum:0 (64,)
+770 ResNet/res3.0/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+771 ResNet/res3.1/h0_bn/beta/Momentum:0 (64,)
+772 ResNet/res3.1/h0_bn/gamma/Momentum:0 (64,)
+773 ResNet/res3.1/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+774 ResNet/res3.1/h1_bn/beta/Momentum:0 (64,)
+775 ResNet/res3.1/h1_bn/gamma/Momentum:0 (64,)
+776 ResNet/res3.1/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+777 ResNet/res3.2/h0_bn/beta/Momentum:0 (64,)
+778 ResNet/res3.2/h0_bn/gamma/Momentum:0 (64,)
+779 ResNet/res3.2/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+780 ResNet/res3.2/h1_bn/beta/Momentum:0 (64,)
+781 ResNet/res3.2/h1_bn/gamma/Momentum:0 (64,)
+782 ResNet/res3.2/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+783 ResNet/res3.3/h0_bn/beta/Momentum:0 (64,)
+784 ResNet/res3.3/h0_bn/gamma/Momentum:0 (64,)
+785 ResNet/res3.3/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+786 ResNet/res3.3/h1_bn/beta/Momentum:0 (64,)
+787 ResNet/res3.3/h1_bn/gamma/Momentum:0 (64,)
+788 ResNet/res3.3/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+789 ResNet/res3.4/h0_bn/beta/Momentum:0 (64,)
+790 ResNet/res3.4/h0_bn/gamma/Momentum:0 (64,)
+791 ResNet/res3.4/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+792 ResNet/res3.4/h1_bn/beta/Momentum:0 (64,)
+793 ResNet/res3.4/h1_bn/gamma/Momentum:0 (64,)
+794 ResNet/res3.4/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+795 ResNet/res3.5/h0_bn/beta/Momentum:0 (64,)
+796 ResNet/res3.5/h0_bn/gamma/Momentum:0 (64,)
+797 ResNet/res3.5/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+798 ResNet/res3.5/h1_bn/beta/Momentum:0 (64,)
+799 ResNet/res3.5/h1_bn/gamma/Momentum:0 (64,)
+800 ResNet/res3.5/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+801 ResNet/res3.6/h0_bn/beta/Momentum:0 (64,)
+802 ResNet/res3.6/h0_bn/gamma/Momentum:0 (64,)
+803 ResNet/res3.6/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+804 ResNet/res3.6/h1_bn/beta/Momentum:0 (64,)
+805 ResNet/res3.6/h1_bn/gamma/Momentum:0 (64,)
+806 ResNet/res3.6/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+807 ResNet/res3.7/h0_bn/beta/Momentum:0 (64,)
+808 ResNet/res3.7/h0_bn/gamma/Momentum:0 (64,)
+809 ResNet/res3.7/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+810 ResNet/res3.7/h1_bn/beta/Momentum:0 (64,)
+811 ResNet/res3.7/h1_bn/gamma/Momentum:0 (64,)
+812 ResNet/res3.7/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+813 ResNet/res3.8/h0_bn/beta/Momentum:0 (64,)
+814 ResNet/res3.8/h0_bn/gamma/Momentum:0 (64,)
+815 ResNet/res3.8/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+816 ResNet/res3.8/h1_bn/beta/Momentum:0 (64,)
+817 ResNet/res3.8/h1_bn/gamma/Momentum:0 (64,)
+818 ResNet/res3.8/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+819 ResNet/res3.9/h0_bn/beta/Momentum:0 (64,)
+820 ResNet/res3.9/h0_bn/gamma/Momentum:0 (64,)
+821 ResNet/res3.9/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+822 ResNet/res3.9/h1_bn/beta/Momentum:0 (64,)
+823 ResNet/res3.9/h1_bn/gamma/Momentum:0 (64,)
+824 ResNet/res3.9/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+825 ResNet/res3.10/h0_bn/beta/Momentum:0 (64,)
+826 ResNet/res3.10/h0_bn/gamma/Momentum:0 (64,)
+827 ResNet/res3.10/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+828 ResNet/res3.10/h1_bn/beta/Momentum:0 (64,)
+829 ResNet/res3.10/h1_bn/gamma/Momentum:0 (64,)
+830 ResNet/res3.10/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+831 ResNet/res3.11/h0_bn/beta/Momentum:0 (64,)
+832 ResNet/res3.11/h0_bn/gamma/Momentum:0 (64,)
+833 ResNet/res3.11/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+834 ResNet/res3.11/h1_bn/beta/Momentum:0 (64,)
+835 ResNet/res3.11/h1_bn/gamma/Momentum:0 (64,)
+836 ResNet/res3.11/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+837 ResNet/res3.12/h0_bn/beta/Momentum:0 (64,)
+838 ResNet/res3.12/h0_bn/gamma/Momentum:0 (64,)
+839 ResNet/res3.12/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+840 ResNet/res3.12/h1_bn/beta/Momentum:0 (64,)
+841 ResNet/res3.12/h1_bn/gamma/Momentum:0 (64,)
+842 ResNet/res3.12/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+843 ResNet/res3.13/h0_bn/beta/Momentum:0 (64,)
+844 ResNet/res3.13/h0_bn/gamma/Momentum:0 (64,)
+845 ResNet/res3.13/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+846 ResNet/res3.13/h1_bn/beta/Momentum:0 (64,)
+847 ResNet/res3.13/h1_bn/gamma/Momentum:0 (64,)
+848 ResNet/res3.13/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+849 ResNet/res3.14/h0_bn/beta/Momentum:0 (64,)
+850 ResNet/res3.14/h0_bn/gamma/Momentum:0 (64,)
+851 ResNet/res3.14/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+852 ResNet/res3.14/h1_bn/beta/Momentum:0 (64,)
+853 ResNet/res3.14/h1_bn/gamma/Momentum:0 (64,)
+854 ResNet/res3.14/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+855 ResNet/res3.15/h0_bn/beta/Momentum:0 (64,)
+856 ResNet/res3.15/h0_bn/gamma/Momentum:0 (64,)
+857 ResNet/res3.15/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+858 ResNet/res3.15/h1_bn/beta/Momentum:0 (64,)
+859 ResNet/res3.15/h1_bn/gamma/Momentum:0 (64,)
+860 ResNet/res3.15/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+861 ResNet/res3.16/h0_bn/beta/Momentum:0 (64,)
+862 ResNet/res3.16/h0_bn/gamma/Momentum:0 (64,)
+863 ResNet/res3.16/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+864 ResNet/res3.16/h1_bn/beta/Momentum:0 (64,)
+865 ResNet/res3.16/h1_bn/gamma/Momentum:0 (64,)
+866 ResNet/res3.16/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+867 ResNet/res3.17/h0_bn/beta/Momentum:0 (64,)
+868 ResNet/res3.17/h0_bn/gamma/Momentum:0 (64,)
+869 ResNet/res3.17/h1_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+870 ResNet/res3.17/h1_bn/beta/Momentum:0 (64,)
+871 ResNet/res3.17/h1_bn/gamma/Momentum:0 (64,)
+872 ResNet/res3.17/h2_conv/conv_weight/Momentum:0 (3, 3, 64, 64)
+873 ResNet/r4_bn/beta/Momentum:0 (64,)
+874 ResNet/r4_bn/gamma/Momentum:0 (64,)
+875 ResNet/fc/fc_weight/Momentum:0 (64, 10)
+876 ResNet/fc/fc_bias/Momentum:0 (10,)
+Training epoch 0, step 390, learning rate 0.00999999977648
+    train loss 2.47688167645, train error 0.617948717949
+    test loss 1.40216886401, test_error 0.517400002107
+Training epoch 1, step 780, learning rate 0.10000000149
+    train loss 1.96778091101, train error 0.435757211538
+    test loss 1.18752683848, test_error 0.395000006258
+Training epoch 2, step 1170, learning rate 0.10000000149
+    train loss 1.5087552575, train error 0.288301282051
+    test loss 0.826618214697, test_error 0.278499995172
+Training epoch 3, step 1560, learning rate 0.10000000149
+    train loss 1.27131713262, train error 0.223737980769
+    test loss 0.807966326177, test_error 0.280399993062
+Training epoch 4, step 1950, learning rate 0.10000000149
+    train loss 1.11488524354, train error 0.187960737179
+    test loss 0.806831109524, test_error 0.268900001049
+Training epoch 5, step 2340, learning rate 0.10000000149
+    train loss 1.0000192416, train error 0.166045673077
+    test loss 0.722795314714, test_error 0.240199994296
+Training epoch 6, step 2730, learning rate 0.10000000149
+    train loss 0.909197230981, train error 0.147756410256
+    test loss 0.910232028365, test_error 0.276199999452
+Training epoch 7, step 3120, learning rate 0.10000000149
+    train loss 0.836326823632, train error 0.135436698718
+    test loss 0.598718848825, test_error 0.203999985754
+Training epoch 8, step 3510, learning rate 0.10000000149
+    train loss 0.773205767075, train error 0.123978365385
+    test loss 0.682583399117, test_error 0.217799988389
+Training epoch 9, step 3900, learning rate 0.10000000149
+    train loss 0.720247634252, train error 0.114022435897
+    test loss 0.537367659807, test_error 0.174799977988
+Training epoch 10, step 4290, learning rate 0.10000000149
+    train loss 0.674437465729, train error 0.106430288462
+    test loss 0.606440552324, test_error 0.199699991196
+Training epoch 11, step 4680, learning rate 0.10000000149
+    train loss 0.641900703158, train error 0.10140224359
+    test loss 0.534033172205, test_error 0.175599980354
+Training epoch 12, step 5070, learning rate 0.10000000149
+    train loss 0.614019870223, train error 0.0972556089744
+    test loss 0.698549987003, test_error 0.206899982691
+Training epoch 13, step 5460, learning rate 0.10000000149
+    train loss 0.588384284041, train error 0.0914663461538
+    test loss 0.640956540033, test_error 0.190599983186
+Training epoch 14, step 5850, learning rate 0.10000000149
+    train loss 0.565892151304, train error 0.0878405448718
+    test loss 0.544092834368, test_error 0.172999986261
+Training epoch 15, step 6240, learning rate 0.10000000149
+    train loss 0.543640450331, train error 0.0832532051282
+    test loss 0.426938296854, test_error 0.142999978364
+Training epoch 16, step 6630, learning rate 0.10000000149
+    train loss 0.525703539527, train error 0.0807291666667
+    test loss 0.447648997977, test_error 0.146599978954
+Training epoch 17, step 7020, learning rate 0.10000000149
+    train loss 0.504958913418, train error 0.075921474359
+    test loss 0.484819993004, test_error 0.156099978834
+Training epoch 18, step 7410, learning rate 0.10000000149
+    train loss 0.497541773319, train error 0.0741987179487
+    test loss 0.469956076518, test_error 0.153599980474
+Training epoch 19, step 7800, learning rate 0.10000000149
+    train loss 0.477719494089, train error 0.0681490384615
+    test loss 0.429264029488, test_error 0.141799982637
+Training epoch 20, step 8190, learning rate 0.10000000149
+    train loss 0.473546458131, train error 0.0677884615385
+    test loss 0.701935226843, test_error 0.201699990034
+Training epoch 21, step 8580, learning rate 0.10000000149
+    train loss 0.464127248449, train error 0.0670072115385
+    test loss 0.41775867492, test_error 0.137099976093
+Training epoch 22, step 8970, learning rate 0.10000000149
+    train loss 0.454018347004, train error 0.062359775641
+    test loss 0.471698760241, test_error 0.153499977291
+Training epoch 23, step 9360, learning rate 0.10000000149
+    train loss 0.445429311807, train error 0.0594951923077
+    test loss 0.520363674872, test_error 0.165799982846
+Training epoch 24, step 9750, learning rate 0.10000000149
+    train loss 0.440646570233, train error 0.0593950320513
+    test loss 0.525923482329, test_error 0.163199980557
+Training epoch 25, step 10140, learning rate 0.10000000149
+    train loss 0.43494722377, train error 0.0568108974359
+    test loss 0.38146395199, test_error 0.123599971831
+Training epoch 26, step 10530, learning rate 0.10000000149
+    train loss 0.42713365807, train error 0.0535657051282
+    test loss 0.412464761361, test_error 0.131499973685
+Training epoch 27, step 10920, learning rate 0.10000000149
+    train loss 0.424907011176, train error 0.0530248397436
+    test loss 0.468976143748, test_error 0.148199976236
+Training epoch 28, step 11310, learning rate 0.10000000149
+    train loss 0.420031625032, train error 0.0522235576923
+    test loss 0.456538756378, test_error 0.141799980402
+Training epoch 29, step 11700, learning rate 0.10000000149
+    train loss 0.415377942033, train error 0.0506810897436
+    test loss 0.477781907469, test_error 0.143699979037
+Training epoch 30, step 12090, learning rate 0.10000000149
+    train loss 0.414546573621, train error 0.0500400641026
+    test loss 0.476787432283, test_error 0.144599979371
+Training epoch 31, step 12480, learning rate 0.10000000149
+    train loss 0.411664348535, train error 0.0486177884615
+    test loss 0.394069552049, test_error 0.128999976814
+Training epoch 32, step 12870, learning rate 0.10000000149
+    train loss 0.404947225864, train error 0.0452924679487
+    test loss 0.359367876779, test_error 0.116599973291
+Training epoch 33, step 13260, learning rate 0.10000000149
+    train loss 0.404190393671, train error 0.0446113782051
+    test loss 0.377906616963, test_error 0.121799971908
+Training epoch 34, step 13650, learning rate 0.10000000149
+    train loss 0.400807818006, train error 0.0432491987179
+    test loss 0.486334367655, test_error 0.145799974352
+Training epoch 35, step 14040, learning rate 0.10000000149
+    train loss 0.401318666339, train error 0.0438301282051
+    test loss 0.378136723302, test_error 0.122699973732
+Training epoch 36, step 14430, learning rate 0.10000000149
+    train loss 0.399705020052, train error 0.0424679487179
+    test loss 0.402295860089, test_error 0.123699970543
+Training epoch 37, step 14820, learning rate 0.10000000149
+    train loss 0.391392262624, train error 0.0393629807692
+    test loss 0.446796387061, test_error 0.140799978375
+Training epoch 38, step 15210, learning rate 0.10000000149
+    train loss 0.391092327161, train error 0.038922275641
+    test loss 0.363818174601, test_error 0.115299972147
+Training epoch 39, step 15600, learning rate 0.10000000149
+    train loss 0.388451589529, train error 0.0376802884615
+    test loss 0.387533283234, test_error 0.11939997524
+Training epoch 40, step 15990, learning rate 0.10000000149
+    train loss 0.391026718723, train error 0.0373998397436
+    test loss 0.360812114552, test_error 0.116799974442
+Training epoch 41, step 16380, learning rate 0.10000000149
+    train loss 0.381514280805, train error 0.0343149038462
+    test loss 0.454767359048, test_error 0.13679997623
+Training epoch 42, step 16770, learning rate 0.10000000149
+    train loss 0.388316057966, train error 0.0360376602564
+    test loss 0.377676841617, test_error 0.119499975443
+Training epoch 43, step 17160, learning rate 0.10000000149
+    train loss 0.389970419499, train error 0.0378205128205
+    test loss 0.41095372308, test_error 0.123999969661
+Training epoch 44, step 17550, learning rate 0.10000000149
+    train loss 0.382640164785, train error 0.034234775641
+    test loss 0.358195875213, test_error 0.109999970347
+Training epoch 45, step 17940, learning rate 0.10000000149
+    train loss 0.38125883998, train error 0.0337139423077
+    test loss 0.375364899449, test_error 0.120299979299
+Training epoch 46, step 18330, learning rate 0.10000000149
+    train loss 0.38296735409, train error 0.0353766025641
+    test loss 0.480905529112, test_error 0.139499983191
+Training epoch 47, step 18720, learning rate 0.10000000149
+    train loss 0.380692374171, train error 0.0329727564103
+    test loss 0.360904476047, test_error 0.110599970818
+Training epoch 48, step 19110, learning rate 0.10000000149
+    train loss 0.378521608389, train error 0.0322716346154
+    test loss 0.445921903662, test_error 0.134899974614
+Training epoch 49, step 19500, learning rate 0.10000000149
+    train loss 0.378623829515, train error 0.0324118589744
+    test loss 0.423174900562, test_error 0.122599980235
+Training epoch 50, step 19890, learning rate 0.10000000149
+    train loss 0.373661323923, train error 0.0304487179487
+    test loss 0.381550445408, test_error 0.117799973488
+Training epoch 51, step 20280, learning rate 0.10000000149
+    train loss 0.374517057034, train error 0.0300280448718
+    test loss 0.360513916239, test_error 0.115299971402
+Training epoch 52, step 20670, learning rate 0.10000000149
+    train loss 0.371901983328, train error 0.0294471153846
+    test loss 0.407461983524, test_error 0.128999980539
+Training epoch 53, step 21060, learning rate 0.10000000149
+    train loss 0.373514169072, train error 0.0292868589744
+    test loss 0.376720787957, test_error 0.119699969888
+Training epoch 54, step 21450, learning rate 0.10000000149
+    train loss 0.378786784793, train error 0.0305088141026
+    test loss 0.413802580722, test_error 0.124199980497
+Training epoch 55, step 21840, learning rate 0.10000000149
+    train loss 0.37527217949, train error 0.0289262820513
+    test loss 0.429566639103, test_error 0.129299975932
+Training epoch 56, step 22230, learning rate 0.10000000149
+    train loss 0.372112538112, train error 0.0277644230769
+    test loss 0.441756988876, test_error 0.131399977952
+Training epoch 57, step 22620, learning rate 0.10000000149
+    train loss 0.3700014984, train error 0.0270232371795
+    test loss 0.35070641879, test_error 0.109499973804
+Training epoch 58, step 23010, learning rate 0.10000000149
+    train loss 0.368505630661, train error 0.0269431089744
+    test loss 0.405241560563, test_error 0.119499976933
+Training epoch 59, step 23400, learning rate 0.10000000149
+    train loss 0.367633058704, train error 0.026422275641
+    test loss 0.395764188468, test_error 0.123199974746
+Training epoch 60, step 23790, learning rate 0.10000000149
+    train loss 0.368385400757, train error 0.0256009615385
+    test loss 0.373532918841, test_error 0.112299972028
+Training epoch 61, step 24180, learning rate 0.10000000149
+    train loss 0.367541286502, train error 0.0258613782051
+    test loss 0.44267058596, test_error 0.124799973518
+Training epoch 62, step 24570, learning rate 0.10000000149
+    train loss 0.365999939503, train error 0.025
+    test loss 0.378431479074, test_error 0.11599997282
+Training epoch 63, step 24960, learning rate 0.10000000149
+    train loss 0.363329660052, train error 0.0242588141026
+    test loss 0.373041539639, test_error 0.11729997322
+Training epoch 64, step 25350, learning rate 0.10000000149
+    train loss 0.363323606054, train error 0.0240184294872
+    test loss 0.399986143038, test_error 0.121399970353
+Training epoch 65, step 25740, learning rate 0.10000000149
+    train loss 0.365369431789, train error 0.0241386217949
+    test loss 0.369513702765, test_error 0.111799973994
+Training epoch 66, step 26130, learning rate 0.10000000149
+    train loss 0.361042208931, train error 0.0235576923077
+    test loss 0.357391256653, test_error 0.113699971139
+Training epoch 67, step 26520, learning rate 0.10000000149
+    train loss 0.363256214674, train error 0.0231169871795
+    test loss 0.350631921925, test_error 0.107099971175
+Training epoch 68, step 26910, learning rate 0.10000000149
+    train loss 0.363497941081, train error 0.0246794871795
+    test loss 0.399924372509, test_error 0.12579998076
+Training epoch 69, step 27300, learning rate 0.10000000149
+    train loss 0.362118863525, train error 0.0228365384615
+    test loss 0.419211047329, test_error 0.11859998256
+Training epoch 70, step 27690, learning rate 0.10000000149
+    train loss 0.361666963269, train error 0.022516025641
+    test loss 0.436790117994, test_error 0.125199972838
+Training epoch 71, step 28080, learning rate 0.10000000149
+    train loss 0.357769571359, train error 0.0215745192308
+    test loss 0.334323404636, test_error 0.10329997167
+Training epoch 72, step 28470, learning rate 0.10000000149
+    train loss 0.36001427464, train error 0.021734775641
+    test loss 0.364150373824, test_error 0.10899996981
+Training epoch 73, step 28860, learning rate 0.10000000149
+    train loss 0.362370875783, train error 0.0226161858974
+    test loss 0.341743787378, test_error 0.104599970579
+Training epoch 74, step 29250, learning rate 0.10000000149
+    train loss 0.358029539463, train error 0.0205729166667
+    test loss 0.3698381681, test_error 0.117099973559
+Training epoch 75, step 29640, learning rate 0.10000000149
+    train loss 0.362504808184, train error 0.0214743589744
+    test loss 0.366736008972, test_error 0.112999973446
+Training epoch 76, step 30030, learning rate 0.10000000149
+    train loss 0.357901887175, train error 0.0199919871795
+    test loss 0.424218018539, test_error 0.12279997766
+Training epoch 77, step 30420, learning rate 0.10000000149
+    train loss 0.357427368332, train error 0.0203926282051
+    test loss 0.349569649063, test_error 0.105599971116
+Training epoch 78, step 30810, learning rate 0.10000000149
+    train loss 0.355755355801, train error 0.0195913461538
+    test loss 0.34203235684, test_error 0.101299972087
+Training epoch 79, step 31200, learning rate 0.10000000149
+    train loss 0.35769000489, train error 0.0210536858974
+    test loss 0.343475837167, test_error 0.10519997105
+Training epoch 80, step 31590, learning rate 0.10000000149
+    train loss 0.357770012969, train error 0.0205929487179
+    test loss 0.474001719616, test_error 0.134499980509
+Training epoch 81, step 31980, learning rate 0.10000000149
+    train loss 0.360490410068, train error 0.0207732371795
+    test loss 0.484517863207, test_error 0.132099980116
+Training epoch 82, step 32370, learning rate 0.00999999977648
+    train loss 0.356177352713, train error 0.0249599358974
+    test loss 0.226994939707, test_error 0.0683999627829
+Training epoch 83, step 32760, learning rate 0.00999999977648
+    train loss 0.321514271085, train error 0.0146834935897
+    test loss 0.227362810448, test_error 0.067299965024
+Training epoch 84, step 33150, learning rate 0.00999999977648
+    train loss 0.307333216835, train error 0.0108573717949
+    test loss 0.227963186987, test_error 0.0667999669909
+Training epoch 85, step 33540, learning rate 0.00999999977648
+    train loss 0.297797840986, train error 0.00963541666667
+    test loss 0.231541705038, test_error 0.0643999628723
+Training epoch 86, step 33930, learning rate 0.00999999977648
+    train loss 0.288886903876, train error 0.00765224358974
+    test loss 0.239761638921, test_error 0.0643999643624
+Training epoch 87, step 34320, learning rate 0.00999999977648
+    train loss 0.28152370621, train error 0.00649038461538
+    test loss 0.237809888553, test_error 0.0623999647796
+Training epoch 88, step 34710, learning rate 0.00999999977648
+    train loss 0.274868000089, train error 0.00522836538462
+    test loss 0.252670008596, test_error 0.0648999653757
+Training epoch 89, step 35100, learning rate 0.00999999977648
+    train loss 0.268562928912, train error 0.00454727564103
+    test loss 0.252911372762, test_error 0.0629999659956
+Training epoch 90, step 35490, learning rate 0.00999999977648
+    train loss 0.263073023275, train error 0.00410657051282
+    test loss 0.26154934261, test_error 0.0640999667346
+Training epoch 91, step 35880, learning rate 0.00999999977648
+    train loss 0.258470603098, train error 0.00396634615385
+    test loss 0.261116487999, test_error 0.0614999622107
+Training epoch 92, step 36270, learning rate 0.00999999977648
+    train loss 0.252576227333, train error 0.00296474358974
+    test loss 0.25896073347, test_error 0.0600999683142
+Training epoch 93, step 36660, learning rate 0.00999999977648
+    train loss 0.247287254227, train error 0.00232371794872
+    test loss 0.268883555476, test_error 0.0629999615252
+Training epoch 94, step 37050, learning rate 0.00999999977648
+    train loss 0.243040077312, train error 0.00206330128205
+    test loss 0.273645423446, test_error 0.0604999616742
+Training epoch 95, step 37440, learning rate 0.00999999977648
+    train loss 0.238910731635, train error 0.00198317307692
+    test loss 0.273907001037, test_error 0.0629999622703
+Training epoch 96, step 37830, learning rate 0.00999999977648
+    train loss 0.23430905877, train error 0.0015625
+    test loss 0.2799472115, test_error 0.0590999655426
+Training epoch 97, step 38220, learning rate 0.00999999977648
+    train loss 0.230823209309, train error 0.00152243589744
+    test loss 0.282160756737, test_error 0.0625999696553
+Training epoch 98, step 38610, learning rate 0.00999999977648
+    train loss 0.227325519881, train error 0.00140224358974
+    test loss 0.279604332987, test_error 0.0610999666154
+Training epoch 99, step 39000, learning rate 0.00999999977648
+    train loss 0.222926945144, train error 0.00104166666667
+    test loss 0.293151093135, test_error 0.0619999654591
+Training epoch 100, step 39390, learning rate 0.00999999977648
+    train loss 0.219674447714, train error 0.00108173076923
+    test loss 0.296970170038, test_error 0.06239996925
+Training epoch 101, step 39780, learning rate 0.00999999977648
+    train loss 0.216217308969, train error 0.000941506410256
+    test loss 0.293548036693, test_error 0.0607999682426
+Training epoch 102, step 40170, learning rate 0.00999999977648
+    train loss 0.213167277781, train error 0.000941506410256
+    test loss 0.303198310081, test_error 0.062899967283
+Training epoch 103, step 40560, learning rate 0.00999999977648
+    train loss 0.210058392546, train error 0.000981570512821
+    test loss 0.297579382081, test_error 0.0615999631584
+Training epoch 104, step 40950, learning rate 0.00999999977648
+    train loss 0.206049081798, train error 0.000641025641026
+    test loss 0.303456220496, test_error 0.0635999664664
+Training epoch 105, step 41340, learning rate 0.00999999977648
+    train loss 0.203567767449, train error 0.00088141025641
+    test loss 0.311100717075, test_error 0.0620999701321
+Training epoch 106, step 41730, learning rate 0.00999999977648
+    train loss 0.199992184608, train error 0.000540865384615
+    test loss 0.305959666986, test_error 0.0610999636352
+Training epoch 107, step 42120, learning rate 0.00999999977648
+    train loss 0.197196357984, train error 0.00068108974359
+    test loss 0.314834544342, test_error 0.062299964577
+Training epoch 108, step 42510, learning rate 0.00999999977648
+    train loss 0.193879360343, train error 0.000540865384615
+    test loss 0.309492569324, test_error 0.0629999622703
+Training epoch 109, step 42900, learning rate 0.00999999977648
+    train loss 0.190900063591, train error 0.000340544871795
+    test loss 0.324047045782, test_error 0.0649999670684
+Training epoch 110, step 43290, learning rate 0.00999999977648
+    train loss 0.188374922902, train error 0.000500801282051
+    test loss 0.325845582318, test_error 0.0617999628186
+Training epoch 111, step 43680, learning rate 0.00999999977648
+    train loss 0.185569493702, train error 0.000440705128205
+    test loss 0.334351276699, test_error 0.0629999682307
+Training epoch 112, step 44070, learning rate 0.00999999977648
+    train loss 0.182177180205, train error 0.00020032051282
+    test loss 0.33030791413, test_error 0.0630999624729
+Training epoch 113, step 44460, learning rate 0.00999999977648
+    train loss 0.180373607576, train error 0.000420673076923
+    test loss 0.325922714919, test_error 0.0638999700546
+Training epoch 114, step 44850, learning rate 0.00999999977648
+    train loss 0.177902964751, train error 0.000520833333333
+    test loss 0.312182398885, test_error 0.0628999620676
+Training epoch 115, step 45240, learning rate 0.00999999977648
+    train loss 0.174650327976, train error 0.000300480769231
+    test loss 0.322866454441, test_error 0.0623999640346
+Training epoch 116, step 45630, learning rate 0.00999999977648
+    train loss 0.172125938726, train error 0.000180288461539
+    test loss 0.318852533493, test_error 0.0607999637723
+Training epoch 117, step 46020, learning rate 0.00999999977648
+    train loss 0.169692800099, train error 0.000260416666667
+    test loss 0.327408767957, test_error 0.0610999658704
+Training epoch 118, step 46410, learning rate 0.00999999977648
+    train loss 0.167424284839, train error 0.000380608974359
+    test loss 0.327898834087, test_error 0.062899967283
+Training epoch 119, step 46800, learning rate 0.00999999977648
+    train loss 0.164619935667, train error 0.000180288461539
+    test loss 0.342639122438, test_error 0.0632999666035
+Training epoch 120, step 47190, learning rate 0.00999999977648
+    train loss 0.162451651692, train error 0.000300480769231
+    test loss 0.334220150299, test_error 0.063199967891
+Training epoch 121, step 47580, learning rate 0.00999999977648
+    train loss 0.160667979717, train error 0.000280448717949
+    test loss 0.329714034777, test_error 0.0633999638259
+Training epoch 122, step 47970, learning rate 0.00999999977648
+    train loss 0.157551768422, train error 8.01282051283e-05
+    test loss 0.338689474855, test_error 0.0635999687016
+Training epoch 123, step 48360, learning rate 0.0010000000475
+    train loss 0.157909259582, train error 0.000921474358974
+    test loss 0.33011608338, test_error 0.0614999674261
+Training epoch 124, step 48750, learning rate 0.0010000000475
+    train loss 0.156915237621, train error 0.000861378205128
+    test loss 0.332686952502, test_error 0.0614999681711
+Training epoch 125, step 49140, learning rate 0.0010000000475
+    train loss 0.156420597128, train error 0.000741185897436
+    test loss 0.328157729097, test_error 0.0602999612689
+Training epoch 126, step 49530, learning rate 0.0010000000475
+    train loss 0.155732064331, train error 0.000520833333333
+    test loss 0.333290534373, test_error 0.0602999687195
+Training epoch 127, step 49920, learning rate 0.0010000000475
+    train loss 0.155796173291, train error 0.000540865384615
+    test loss 0.326072165836, test_error 0.0601999700069
+Training epoch 128, step 50310, learning rate 0.0010000000475
+    train loss 0.155210149938, train error 0.000440705128205
+    test loss 0.327889246587, test_error 0.0605999596417
+Training epoch 129, step 50700, learning rate 0.0010000000475
+    train loss 0.155059683781, train error 0.000641025641026
+    test loss 0.325062864367, test_error 0.0599999666214
+Training epoch 130, step 51090, learning rate 0.0010000000475
+    train loss 0.154511189155, train error 0.000520833333333
+    test loss 0.326504364889, test_error 0.0599999658763
+Training epoch 131, step 51480, learning rate 0.0010000000475
+    train loss 0.154221546191, train error 0.000500801282051
+    test loss 0.33122024741, test_error 0.0603999726474
+Training epoch 132, step 51870, learning rate 0.0010000000475
+    train loss 0.153970628939, train error 0.000480769230769
+    test loss 0.32866885094, test_error 0.0593999646604
+Training epoch 133, step 52260, learning rate 0.0010000000475
+    train loss 0.153366748912, train error 0.00020032051282
+    test loss 0.328882482834, test_error 0.0594999626279
+Training epoch 134, step 52650, learning rate 0.0010000000475
+    train loss 0.153517260536, train error 0.000380608974359
+    test loss 0.333217913285, test_error 0.0600999683142
+Training epoch 135, step 53040, learning rate 0.0010000000475
+    train loss 0.153192937259, train error 0.000520833333333
+    test loss 0.330203410704, test_error 0.0590999640524
+Training epoch 136, step 53430, learning rate 0.0010000000475
+    train loss 0.152823316822, train error 0.000400641025641
+    test loss 0.32818598235, test_error 0.0588999643922
+Training epoch 137, step 53820, learning rate 0.0010000000475
+    train loss 0.152834004469, train error 0.000440705128205
+    test loss 0.331977768894, test_error 0.0593999646604
+Training epoch 138, step 54210, learning rate 0.0010000000475
+    train loss 0.152325910215, train error 0.000320512820513
+    test loss 0.333779629599, test_error 0.0599999658763
+Training epoch 139, step 54600, learning rate 0.0010000000475
+    train loss 0.152160415435, train error 0.000320512820513
+    test loss 0.333294455241, test_error 0.0598999656737
+Training epoch 140, step 54990, learning rate 0.0010000000475
+    train loss 0.151751884207, train error 0.000320512820513
+    test loss 0.331288267858, test_error 0.0589999645948
+Training epoch 141, step 55380, learning rate 0.0010000000475
+    train loss 0.15139992474, train error 0.000260416666667
+    test loss 0.333017896954, test_error 0.0613999634981
+Training epoch 142, step 55770, learning rate 0.0010000000475
+    train loss 0.151459292838, train error 0.000420673076923
+    test loss 0.331078237668, test_error 0.0588999673724
+Training epoch 143, step 56160, learning rate 0.0010000000475
+    train loss 0.150875568887, train error 0.000240384615385
+    test loss 0.335018153116, test_error 0.0595999650657
+Training epoch 144, step 56550, learning rate 0.0010000000475
+    train loss 0.150656544895, train error 0.000360576923077
+    test loss 0.333504468668, test_error 0.0588999643922
+Training epoch 145, step 56940, learning rate 0.0010000000475
+    train loss 0.150649768114, train error 0.000420673076923
+    test loss 0.332180464827, test_error 0.0595999658108
+Training epoch 146, step 57330, learning rate 0.0010000000475
+    train loss 0.150290706716, train error 0.000340544871795
+    test loss 0.33356360849, test_error 0.05919996351
+Training epoch 147, step 57720, learning rate 0.0010000000475
+    train loss 0.150057325073, train error 0.000420673076923
+    test loss 0.3340896382, test_error 0.0587999619544
+Training epoch 148, step 58110, learning rate 0.0010000000475
+    train loss 0.149969682556, train error 0.000400641025641
+    test loss 0.334112818912, test_error 0.0595999620855
+Training epoch 149, step 58500, learning rate 0.0010000000475
+    train loss 0.149365043755, train error 0.000240384615385
+    test loss 0.336836575624, test_error 0.060299962014
+Training epoch 150, step 58890, learning rate 0.0010000000475
+    train loss 0.14941082593, train error 0.000220352564103
+    test loss 0.333010816108, test_error 0.0589999608696
+Training epoch 151, step 59280, learning rate 0.0010000000475
+    train loss 0.149091017055, train error 0.000220352564103
+    test loss 0.335094236676, test_error 0.0592999629676
+Training epoch 152, step 59670, learning rate 0.0010000000475
+    train loss 0.148472242821, train error 0.000180288461539
+    test loss 0.333812246751, test_error 0.0588999688625
+Training epoch 153, step 60060, learning rate 0.0010000000475
+    train loss 0.148968223081, train error 0.000460737179487
+    test loss 0.335163593572, test_error 0.0589999683201
+Training epoch 154, step 60450, learning rate 0.0010000000475
+    train loss 0.1485747899, train error 0.000300480769231
+    test loss 0.337037091609, test_error 0.0595999635756
+Training epoch 155, step 60840, learning rate 0.0010000000475
+    train loss 0.148102589104, train error 0.000240384615385
+    test loss 0.340357284248, test_error 0.0596999667585
+Training epoch 156, step 61230, learning rate 0.0010000000475
+    train loss 0.147711571287, train error 0.000240384615385
+    test loss 0.338484771457, test_error 0.0601999677718
+Training epoch 157, step 61620, learning rate 0.0010000000475
+    train loss 0.147575606635, train error 0.000180288461539
+    test loss 0.337259970605, test_error 0.0585999637842
+Training epoch 158, step 62010, learning rate 0.0010000000475
+    train loss 0.147334266397, train error 0.000220352564103
+    test loss 0.339621399529, test_error 0.0595999635756
+Training epoch 159, step 62400, learning rate 0.0010000000475
+    train loss 0.146968149107, train error 0.000180288461539
+    test loss 0.338275815826, test_error 0.0599999658763
+Training epoch 160, step 62790, learning rate 0.0010000000475
+    train loss 0.146934072177, train error 0.000320512820513
+    test loss 0.33808656726, test_error 0.0596999667585
+Training epoch 161, step 63180, learning rate 0.0010000000475
+    train loss 0.146640227811, train error 0.000240384615385
+    test loss 0.340484852437, test_error 0.0603999622166
+Training epoch 162, step 63570, learning rate 0.0010000000475
+    train loss 0.146610659781, train error 0.000280448717949
+    test loss 0.340082186088, test_error 0.0593999661505
+Training epoch 163, step 63960, learning rate 0.0010000000475
+    train loss 0.146335578767, train error 0.000340544871795
+    test loss 0.342395384237, test_error 0.0598999641836
+Training epoch 164, step 64350, learning rate 0.000199999994948
+    train loss 0.145972355512, train error 0.000240384615385
+    test loss 0.342822036333, test_error 0.0599999621511
+Training epoch 165, step 64740, learning rate 0.000199999994948
+    train loss 0.146148682099, train error 0.000260416666667
+    test loss 0.341423917096, test_error 0.0593999631703
+Training epoch 166, step 65130, learning rate 0.000199999994948
+    train loss 0.145778565491, train error 0.000220352564103
+    test loss 0.34045188874, test_error 0.0586999610066
+Training epoch 167, step 65520, learning rate 0.000199999994948
+    train loss 0.146125653959, train error 0.000440705128205
+    test loss 0.341356584616, test_error 0.05899996683
+Training epoch 168, step 65910, learning rate 0.000199999994948
+    train loss 0.145994118964, train error 0.000360576923077
+    test loss 0.339559650607, test_error 0.0587999612093
+Training epoch 169, step 66300, learning rate 0.000199999994948
+    train loss 0.145869474266, train error 0.000320512820513
+    test loss 0.339321946539, test_error 0.0588999658823
+Training epoch 170, step 66690, learning rate 0.000199999994948
+    train loss 0.145781888947, train error 0.000260416666667
+    test loss 0.341186128184, test_error 0.0593999683857
+Training epoch 171, step 67080, learning rate 0.000199999994948
+    train loss 0.145732320005, train error 0.000260416666667
+    test loss 0.34227287462, test_error 0.0591999620199
+Training epoch 172, step 67470, learning rate 0.000199999994948
+    train loss 0.145868591773, train error 0.000440705128205
+    test loss 0.341759123094, test_error 0.0599999636412
+Training epoch 173, step 67860, learning rate 0.000199999994948
+    train loss 0.14577125181, train error 0.000260416666667
+    test loss 0.341948989127, test_error 0.0586999617517
+Training epoch 174, step 68250, learning rate 0.000199999994948
+    train loss 0.145338134468, train error 0.000220352564103
+    test loss 0.341476084758, test_error 0.0596999652684
+Training epoch 175, step 68640, learning rate 0.000199999994948
+    train loss 0.145485930489, train error 0.000260416666667
+    test loss 0.341327153146, test_error 0.0587999634445
+Training epoch 176, step 69030, learning rate 0.000199999994948
+    train loss 0.145330137435, train error 0.000220352564103
+    test loss 0.341547928937, test_error 0.059799964726
+Training epoch 177, step 69420, learning rate 0.000199999994948
+    train loss 0.145294222885, train error 0.000220352564103
+    test loss 0.343884810992, test_error 0.0583999671042
+Training epoch 178, step 69810, learning rate 0.000199999994948
+    train loss 0.145192060639, train error 0.000140224358974
+    test loss 0.341286171228, test_error 0.0588999651372
+Training epoch 179, step 70200, learning rate 0.000199999994948
+    train loss 0.145341122227, train error 0.000220352564103
+    test loss 0.340067084134, test_error 0.0587999686599
+Training epoch 180, step 70590, learning rate 0.000199999994948
+    train loss 0.145283634579, train error 0.000260416666667
+    test loss 0.341312920116, test_error 0.0589999638498
+Training epoch 181, step 70980, learning rate 0.000199999994948
+    train loss 0.145484503722, train error 0.000460737179487
+    test loss 0.343771764357, test_error 0.0594999633729
+Training epoch 182, step 71370, learning rate 0.000199999994948
+    train loss 0.145283940969, train error 0.000300480769231
+    test loss 0.341522307601, test_error 0.0589999683201
+Training epoch 183, step 71760, learning rate 0.000199999994948
+    train loss 0.145097546547, train error 0.000260416666667
+    test loss 0.342625701427, test_error 0.0600999638438
+Training epoch 184, step 72150, learning rate 0.000199999994948
+    train loss 0.144893141664, train error 0.000260416666667
+    test loss 0.34294064641, test_error 0.058399964124
+Training epoch 185, step 72540, learning rate 0.000199999994948
+    train loss 0.145062358334, train error 0.000220352564103
+    test loss 0.340973811783, test_error 0.060099966079
+Training epoch 186, step 72930, learning rate 0.000199999994948
+    train loss 0.14517569263, train error 0.000380608974359
+    test loss 0.341650004126, test_error 0.0589999631047
+Training epoch 187, step 73320, learning rate 0.000199999994948
+    train loss 0.144896963583, train error 0.000280448717949
+    test loss 0.343327823468, test_error 0.0591999672353
+Training epoch 188, step 73710, learning rate 0.000199999994948
+    train loss 0.144998120421, train error 0.000340544871795
+    test loss 0.343658002932, test_error 0.058399964124
+Training epoch 189, step 74100, learning rate 0.000199999994948
+    train loss 0.144895801521, train error 0.000260416666667
+    test loss 0.34108885508, test_error 0.0586999677122
+Training epoch 190, step 74490, learning rate 0.000199999994948
+    train loss 0.144959832843, train error 0.000300480769231
+    test loss 0.340191334765, test_error 0.0589999705553
+Training epoch 191, step 74880, learning rate 0.000199999994948
+    train loss 0.144614506685, train error 0.000180288461539
+    test loss 0.339306290261, test_error 0.058599961549
+Training epoch 192, step 75270, learning rate 0.000199999994948
+    train loss 0.144735117486, train error 0.000220352564103
+    test loss 0.341278647352, test_error 0.0587999679148
+Training epoch 193, step 75660, learning rate 0.000199999994948
+    train loss 0.14453568321, train error 0.000180288461539
+    test loss 0.342645484488, test_error 0.0585999682546
+Training epoch 194, step 76050, learning rate 0.000199999994948
+    train loss 0.144644865317, train error 0.000300480769231
+    test loss 0.342583149113, test_error 0.0600999675691
+Training epoch 195, step 76440, learning rate 0.000199999994948
+    train loss 0.144571700425, train error 0.000180288461539
+    test loss 0.3410797433, test_error 0.0584999673069
+Training epoch 196, step 76830, learning rate 0.000199999994948
+    train loss 0.144498501986, train error 0.000240384615385
+    test loss 0.342858293839, test_error 0.0595999680459
+Training epoch 197, step 77220, learning rate 0.000199999994948
+    train loss 0.144417410096, train error 0.000260416666667
+    test loss 0.342091611214, test_error 0.0593999631703
+Training epoch 198, step 77610, learning rate 0.000199999994948
+    train loss 0.144220900306, train error 0.000120192307692
+    test loss 0.342452784535, test_error 0.0594999663532
+Training epoch 199, step 78000, learning rate 0.000199999994948
+    train loss 0.144254142504, train error 0.000180288461539
+    test loss 0.34307406256, test_error 0.0598999679089
+Training epoch 200, step 78390, learning rate 0.000199999994948
+    train loss 0.144571992526, train error 0.000420673076923
+    test loss 0.343105394207, test_error 0.0584999628365
+Training epoch 201, step 78780, learning rate 0.000199999994948
+    train loss 0.144374068616, train error 0.000280448717949
+    test loss 0.342272447795, test_error 0.0593999639153
+Training epoch 202, step 79170, learning rate 0.000199999994948
+    train loss 0.144146393048, train error 0.000160256410256
+    test loss 0.340915681422, test_error 0.0601999640465
+Training epoch 203, step 79560, learning rate 0.000199999994948
+    train loss 0.144206745273, train error 0.000240384615385
+    test loss 0.343304334953, test_error 0.05919996351
+Training epoch 204, step 79950, learning rate 0.000199999994948
+    train loss 0.144083932233, train error 0.000260416666667
+    test loss 0.343252434488, test_error 0.0586999684572
+Training epoch 205, step 80340, learning rate 0.000199999994948
+    train loss 0.144032859306, train error 0.00020032051282
+    test loss 0.347334741615, test_error 0.0594999670982
+Training epoch 206, step 80730, learning rate 0.000199999994948
+    train loss 0.144029197326, train error 0.000280448717949
+    test loss 0.345752155222, test_error 0.0588999703526
+Training epoch 207, step 81120, learning rate 0.000199999994948
+    train loss 0.143991685372, train error 0.000220352564103
+    test loss 0.346540206671, test_error 0.0603999614716
+Training epoch 208, step 81510, learning rate 0.000199999994948
+    train loss 0.143955892554, train error 0.000160256410256
+    test loss 0.344462896138, test_error 0.0592999689281
+Training epoch 209, step 81900, learning rate 0.000199999994948
+    train loss 0.143800858657, train error 0.000240384615385
+    test loss 0.34279346671, test_error 0.0598999634385
+Training epoch 210, step 82290, learning rate 0.000199999994948
+    train loss 0.144013825517, train error 0.000300480769231
+    test loss 0.343081604131, test_error 0.058699965477
+Training epoch 211, step 82680, learning rate 0.000199999994948
+    train loss 0.14393697744, train error 0.000240384615385
+    test loss 0.34163913019, test_error 0.0596999697387
+Training epoch 212, step 83070, learning rate 0.000199999994948
+    train loss 0.143840539685, train error 0.000240384615385
+    test loss 0.339980545919, test_error 0.059399959445
+Training epoch 213, step 83460, learning rate 0.000199999994948
+    train loss 0.143466395484, train error 0.00020032051282
+    test loss 0.341886069812, test_error 0.0585999645293
+Training epoch 214, step 83850, learning rate 0.000199999994948
+    train loss 0.143934077903, train error 0.000420673076923
+    test loss 0.343217840418, test_error 0.0590999647975
+Training epoch 215, step 84240, learning rate 0.000199999994948
+    train loss 0.143813131635, train error 0.000320512820513
+    test loss 0.341142247617, test_error 0.0588999658823
+Training epoch 216, step 84630, learning rate 0.000199999994948
+    train loss 0.143605950819, train error 0.000260416666667
+    test loss 0.341811694391, test_error 0.0590999625623
+Training epoch 217, step 85020, learning rate 0.000199999994948
+    train loss 0.143736590712, train error 0.000340544871795
+    test loss 0.343784337491, test_error 0.058099963516
+Training epoch 218, step 85410, learning rate 0.000199999994948
+    train loss 0.143668022064, train error 0.000280448717949
+    test loss 0.341886111163, test_error 0.0596999622881
+Training epoch 219, step 85800, learning rate 0.000199999994948
+    train loss 0.14338457336, train error 0.000260416666667
+    test loss 0.341088372841, test_error 0.0589999638498
+Training epoch 220, step 86190, learning rate 0.000199999994948
+    train loss 0.14329246168, train error 0.000160256410256
+    test loss 0.342830545548, test_error 0.0589999616146
+Training epoch 221, step 86580, learning rate 0.000199999994948
+    train loss 0.143221013821, train error 0.000220352564103
+    test loss 0.341400257684, test_error 0.0587999664247
+Training epoch 222, step 86970, learning rate 0.000199999994948
+    train loss 0.143349990554, train error 0.000320512820513
+    test loss 0.345572157763, test_error 0.0587999686599
+Training epoch 223, step 87360, learning rate 0.000199999994948
+    train loss 0.143145037576, train error 0.000140224358974
+    test loss 0.345611693896, test_error 0.0599999651313
+Training epoch 224, step 87750, learning rate 0.000199999994948
+    train loss 0.143229509661, train error 0.00020032051282
+    test loss 0.341781095229, test_error 0.0592999666929
+Training epoch 225, step 88140, learning rate 0.000199999994948
+    train loss 0.143117322257, train error 0.00020032051282
+    test loss 0.342794878408, test_error 0.0585999637842
+Training epoch 226, step 88530, learning rate 0.000199999994948
+    train loss 0.143159970756, train error 0.000240384615385
+    test loss 0.341362701636, test_error 0.058399964124
+Training epoch 227, step 88920, learning rate 0.000199999994948
+    train loss 0.143157501251, train error 0.000240384615385
+    test loss 0.341804521531, test_error 0.0585999645293
+Training epoch 228, step 89310, learning rate 0.000199999994948
+    train loss 0.143023667427, train error 0.000300480769231
+    test loss 0.342782729492, test_error 0.0587999664247
+Training epoch 229, step 89700, learning rate 0.000199999994948
+    train loss 0.142843791575, train error 0.000160256410256
+    test loss 0.341836278141, test_error 0.0585999682546
+Training epoch 230, step 90090, learning rate 0.000199999994948
+    train loss 0.142979087661, train error 0.000240384615385
+    test loss 0.345358181465, test_error 0.0587999619544
+Training epoch 231, step 90480, learning rate 0.000199999994948
+    train loss 0.14273304477, train error 0.000160256410256
+    test loss 0.344925416447, test_error 0.0600999645889
+Training epoch 232, step 90870, learning rate 0.000199999994948
+    train loss 0.142949626881, train error 0.000280448717949
+    test loss 0.341666261293, test_error 0.058999966085
+Training epoch 233, step 91260, learning rate 0.000199999994948
+    train loss 0.142827594853, train error 0.000240384615385
+    test loss 0.343221042864, test_error 0.0594999648631
+Training epoch 234, step 91650, learning rate 0.000199999994948
+    train loss 0.142603773299, train error 0.000180288461539
+    test loss 0.343132636603, test_error 0.0591999657452
+Training epoch 235, step 92040, learning rate 0.000199999994948
+    train loss 0.142768598405, train error 0.00020032051282
+    test loss 0.345078324527, test_error 0.0595999643207
+Training epoch 236, step 92430, learning rate 0.000199999994948
+    train loss 0.142554876781, train error 0.00020032051282
+    test loss 0.344463479891, test_error 0.0587999612093
+Training epoch 237, step 92820, learning rate 0.000199999994948
+    train loss 0.142621821891, train error 0.000240384615385
+    test loss 0.344958807155, test_error 0.0587999686599
+Training epoch 238, step 93210, learning rate 0.000199999994948
+    train loss 0.142662537556, train error 0.000140224358974
+    test loss 0.343334038649, test_error 0.0592999644578
+Training epoch 239, step 93600, learning rate 0.000199999994948
+    train loss 0.142496610032, train error 0.000220352564103
+    test loss 0.346937276702, test_error 0.0599999628961
+Training epoch 240, step 93990, learning rate 0.000199999994948
+    train loss 0.142590774863, train error 0.000240384615385
+    test loss 0.343107689731, test_error 0.0594999648631
+Training epoch 241, step 94380, learning rate 0.000199999994948
+    train loss 0.142692449804, train error 0.000260416666667
+    test loss 0.347491546907, test_error 0.0613999642432
+Training epoch 242, step 94770, learning rate 0.000199999994948
+    train loss 0.142615319865, train error 0.000360576923077
+    test loss 0.344217757229, test_error 0.0592999629676
+Training epoch 243, step 95160, learning rate 0.000199999994948
+    train loss 0.142309325055, train error 0.000180288461539
+    test loss 0.343966549635, test_error 0.0593999654055
+Training epoch 244, step 95550, learning rate 0.000199999994948
+    train loss 0.142487378762, train error 0.000320512820513
+    test loss 0.344929410145, test_error 0.0602999664843
+Training epoch 245, step 95940, learning rate 0.000199999994948
+    train loss 0.14212630223, train error 0.000140224358974
+    test loss 0.344052053057, test_error 0.0593999668956
+Training epoch 246, step 96330, learning rate 0.000199999994948
+    train loss 0.142181763932, train error 0.000140224358974
+    test loss 0.343934992049, test_error 0.0594999663532
+Training epoch 247, step 96720, learning rate 0.000199999994948
+    train loss 0.1419597701, train error 0.000120192307692
+    test loss 0.346654021554, test_error 0.0586999624968
+Training epoch 248, step 97110, learning rate 0.000199999994948
+    train loss 0.141950545326, train error 0.000180288461539
+    test loss 0.344363541063, test_error 0.0591999679804
+Training epoch 249, step 97500, learning rate 0.000199999994948
+    train loss 0.141883009787, train error 0.000160256410256
+    test loss 0.346454585716, test_error 0.0604999653995
+Training epoch 250, step 97890, learning rate 0.000199999994948
+    train loss 0.142235950744, train error 0.000340544871795
+    test loss 0.345763297752, test_error 0.0587999641895
+Training epoch 251, step 98280, learning rate 0.000199999994948
+    train loss 0.141832638589, train error 0.000180288461539
+    test loss 0.344564122427, test_error 0.0602999649942
+Training epoch 252, step 98670, learning rate 0.000199999994948
+    train loss 0.14201498429, train error 0.000240384615385
+    test loss 0.34647241449, test_error 0.0604999601841
+Training epoch 253, step 99060, learning rate 0.000199999994948
+    train loss 0.142010214963, train error 0.000280448717949
+    test loss 0.345543626696, test_error 0.0597999662161
+Training epoch 254, step 99450, learning rate 0.000199999994948
+    train loss 0.141639651167, train error 0.00010016025641
+    test loss 0.341781794373, test_error 0.0589999608696
+Training epoch 255, step 99840, learning rate 0.000199999994948
+    train loss 0.142035578612, train error 0.000260416666667
+    test loss 0.34431798961, test_error 0.0593999631703
+Training epoch 256, step 100230, learning rate 0.000199999994948
+    train loss 0.1417129005, train error 0.000220352564103
+    test loss 0.345880237129, test_error 0.0604999661446
+Training epoch 257, step 100620, learning rate 0.000199999994948
+    train loss 0.141774472594, train error 0.000140224358974
+    test loss 0.344736476615, test_error 0.0591999664903
+Training epoch 258, step 101010, learning rate 0.000199999994948
+    train loss 0.141540972315, train error 0.00020032051282
+    test loss 0.345818998665, test_error 0.0585999622941
+Training epoch 259, step 101400, learning rate 0.000199999994948
+    train loss 0.141610839734, train error 0.000240384615385
+    test loss 0.34757925244, test_error 0.0603999592364
+Training epoch 260, step 101790, learning rate 0.000199999994948
+    train loss 0.14144778053, train error 0.000140224358974
+    test loss 0.34637413267, test_error 0.0593999691308
+Training epoch 261, step 102180, learning rate 0.000199999994948
+    train loss 0.141643465559, train error 0.000220352564103
+    test loss 0.348301462922, test_error 0.0591999664903
+Training epoch 262, step 102570, learning rate 0.000199999994948
+    train loss 0.141468362052, train error 0.000160256410256
+    test loss 0.34663173994, test_error 0.0593999654055
+Training epoch 263, step 102960, learning rate 0.000199999994948
+    train loss 0.141385221863, train error 0.000160256410256
+    test loss 0.343311580643, test_error 0.0584999665618
+Training epoch 264, step 103350, learning rate 0.000199999994948
+    train loss 0.141487862666, train error 0.000260416666667
+    test loss 0.345777737163, test_error 0.0598999649286
+Training epoch 265, step 103740, learning rate 0.000199999994948
+    train loss 0.141109390175, train error 8.01282051283e-05
+    test loss 0.348843646143, test_error 0.0600999645889
+Training epoch 266, step 104130, learning rate 0.000199999994948
+    train loss 0.141458927897, train error 0.00020032051282
+    test loss 0.349150782079, test_error 0.060199957341
+Training epoch 267, step 104520, learning rate 0.000199999994948
+    train loss 0.141265257811, train error 0.00020032051282
+    test loss 0.347334140912, test_error 0.0599999666214
+Training epoch 268, step 104910, learning rate 0.000199999994948
+    train loss 0.141093916885, train error 0.000140224358974
+    test loss 0.346309449803, test_error 0.0596999615431
+Training epoch 269, step 105300, learning rate 0.000199999994948
+    train loss 0.140982542321, train error 0.000120192307692
+    test loss 0.345783363841, test_error 0.0590999640524
+Training epoch 270, step 105690, learning rate 0.000199999994948
+    train loss 0.14104565531, train error 0.000220352564103
+    test loss 0.342839257419, test_error 0.0596999667585
+Training epoch 271, step 106080, learning rate 0.000199999994948
+    train loss 0.141218799582, train error 0.000220352564103
+    test loss 0.345050131809, test_error 0.0585999704897
+Training epoch 272, step 106470, learning rate 0.000199999994948
+    train loss 0.140843773805, train error 8.01282051283e-05
+    test loss 0.343937916867, test_error 0.0589999675751
+Training epoch 273, step 106860, learning rate 0.000199999994948
+    train loss 0.141065124021, train error 0.000240384615385
+    test loss 0.348556943238, test_error 0.0601999662817
+Training epoch 274, step 107250, learning rate 0.000199999994948
+    train loss 0.140954826008, train error 0.000220352564103
+    test loss 0.347703936882, test_error 0.0592999659479
+Training epoch 275, step 107640, learning rate 0.000199999994948
+    train loss 0.140710317859, train error 0.000120192307692
+    test loss 0.345913012698, test_error 0.0594999678433
+Training epoch 276, step 108030, learning rate 0.000199999994948
+    train loss 0.14070783609, train error 0.000160256410256
+    test loss 0.347891483642, test_error 0.0599999628961
+Training epoch 277, step 108420, learning rate 0.000199999994948
+    train loss 0.140954732513, train error 0.000260416666667
+    test loss 0.34677444296, test_error 0.0591999664903
+Training epoch 278, step 108810, learning rate 0.000199999994948
+    train loss 0.140699161207, train error 0.000160256410256
+    test loss 0.349196478352, test_error 0.0591999612749
+Training epoch 279, step 109200, learning rate 0.000199999994948
+    train loss 0.140683263158, train error 0.00020032051282
+    test loss 0.34994164072, test_error 0.0600999645889
+Training epoch 280, step 109590, learning rate 0.000199999994948
+    train loss 0.140632732136, train error 0.00020032051282
+    test loss 0.347535323724, test_error 0.0590999670327
+Training epoch 281, step 109980, learning rate 0.000199999994948
+    train loss 0.140635055686, train error 0.000180288461539
+    test loss 0.348502176628, test_error 0.0590999655426
+Training epoch 282, step 110370, learning rate 0.000199999994948
+    train loss 0.140462434292, train error 0.00020032051282
+    test loss 0.349024525099, test_error 0.0589999623597
+Training epoch 283, step 110760, learning rate 0.000199999994948
+    train loss 0.14059250393, train error 0.000160256410256
+    test loss 0.347559565492, test_error 0.0604999616742
+Training epoch 284, step 111150, learning rate 0.000199999994948
+    train loss 0.140604147048, train error 0.000280448717949
+    test loss 0.34975227369, test_error 0.0600999653339
+Training epoch 285, step 111540, learning rate 0.000199999994948
+    train loss 0.140467644808, train error 0.000220352564103
+    test loss 0.3465722505, test_error 0.0587999619544
+Training epoch 286, step 111930, learning rate 0.000199999994948
+    train loss 0.140289328266, train error 0.000120192307692
+    test loss 0.345849036053, test_error 0.0598999686539
+Training epoch 287, step 112320, learning rate 0.000199999994948
+    train loss 0.140317122218, train error 0.00020032051282
+    test loss 0.352286120877, test_error 0.0600999638438
+Training epoch 288, step 112710, learning rate 0.000199999994948
+    train loss 0.140325122919, train error 0.000260416666667
+    test loss 0.349024291057, test_error 0.059799965471
+Training epoch 289, step 113100, learning rate 0.000199999994948
+    train loss 0.140187462515, train error 0.00020032051282
+    test loss 0.347666241042, test_error 0.0602999709547
+Training epoch 290, step 113490, learning rate 0.000199999994948
+    train loss 0.14028803668, train error 0.000160256410256
+    test loss 0.345493753441, test_error 0.0594999656081
+Training epoch 291, step 113880, learning rate 0.000199999994948
+    train loss 0.140317284602, train error 0.000220352564103
+    test loss 0.347888039984, test_error 0.0582999669015
+Training epoch 292, step 114270, learning rate 0.000199999994948
+    train loss 0.140364383276, train error 0.000380608974359
+    test loss 0.347673025634, test_error 0.0593999668956
+Training epoch 293, step 114660, learning rate 0.000199999994948
+    train loss 0.140073433671, train error 0.000160256410256
+    test loss 0.349860462453, test_error 0.0590999618173
+Training epoch 294, step 115050, learning rate 0.000199999994948
+    train loss 0.140059712835, train error 0.000160256410256
+    test loss 0.346437927336, test_error 0.0591999687254
+Training epoch 295, step 115440, learning rate 0.000199999994948
+    train loss 0.139981567287, train error 0.00020032051282
+    test loss 0.348849065043, test_error 0.0584999650717
+Training epoch 296, step 115830, learning rate 0.000199999994948
+    train loss 0.140032367141, train error 0.00020032051282
+    test loss 0.351987016387, test_error 0.0599999681115
+Training epoch 297, step 116220, learning rate 0.000199999994948
+    train loss 0.139949658016, train error 0.000180288461539
+    test loss 0.34836887829, test_error 0.0582999646664
+Training epoch 298, step 116610, learning rate 0.000199999994948
+    train loss 0.139789559711, train error 0.000140224358974
+    test loss 0.351274929196, test_error 0.0598999649286
+Training epoch 299, step 117000, learning rate 0.000199999994948
+    train loss 0.139825594081, train error 0.000220352564103
+    test loss 0.348806967959, test_error 0.0594999663532
+Training epoch 300, step 117390, learning rate 0.000199999994948
+    train loss 0.139614112981, train error 0.000140224358974
+    test loss 0.348047571443, test_error 0.0593999676406
+Training epoch 301, step 117780, learning rate 0.000199999994948
+    train loss 0.139620596323, train error 0.000120192307692
+    test loss 0.349086014926, test_error 0.0594999626279
+Training epoch 302, step 118170, learning rate 0.000199999994948
+    train loss 0.139703000853, train error 0.000160256410256
+    test loss 0.350756005943, test_error 0.0598999641836
+Training epoch 303, step 118560, learning rate 0.000199999994948
+    train loss 0.139579032323, train error 0.00010016025641
+    test loss 0.352947276272, test_error 0.0605999611318
+Training epoch 304, step 118950, learning rate 0.000199999994948
+    train loss 0.139840792769, train error 0.000320512820513
+    test loss 0.350543419644, test_error 0.0587999626994
+Training epoch 305, step 119340, learning rate 0.000199999994948
+    train loss 0.139587680499, train error 0.000220352564103
+    test loss 0.346972488984, test_error 0.0597999617457
+Training epoch 306, step 119730, learning rate 0.000199999994948
+    train loss 0.139571472659, train error 0.00020032051282
+    test loss 0.349314135499, test_error 0.0587999679148
+Training epoch 307, step 120120, learning rate 0.000199999994948
+    train loss 0.139377307357, train error 0.000140224358974
+    test loss 0.347352977283, test_error 0.0591999694705
+Training epoch 308, step 120510, learning rate 0.000199999994948
+    train loss 0.139621633024, train error 0.000240384615385
+    test loss 0.34675486479, test_error 0.0587999686599
+Training epoch 309, step 120900, learning rate 0.000199999994948
+    train loss 0.139261487585, train error 8.01282051283e-05
+    test loss 0.350472381897, test_error 0.0585999622941
+Training epoch 310, step 121290, learning rate 0.000199999994948
+    train loss 0.139271073464, train error 0.000180288461539
+    test loss 0.349836095609, test_error 0.0587999641895
+Training epoch 311, step 121680, learning rate 0.000199999994948
+    train loss 0.139265655249, train error 0.000260416666667
+    test loss 0.348742281925, test_error 0.0598999626935
+Training epoch 312, step 122070, learning rate 0.000199999994948
+    train loss 0.139305130793, train error 0.00020032051282
+    test loss 0.350475556776, test_error 0.0594999633729
+Training epoch 313, step 122460, learning rate 0.000199999994948
+    train loss 0.139498443749, train error 0.000260416666667
+    test loss 0.346209796704, test_error 0.0597999662161
+Training epoch 314, step 122850, learning rate 0.000199999994948
+    train loss 0.139158697656, train error 0.000220352564103
+    test loss 0.348764201626, test_error 0.0594999648631
+Training epoch 315, step 123240, learning rate 0.000199999994948
+    train loss 0.139055216007, train error 0.00010016025641
+    test loss 0.353351794556, test_error 0.0596999660134
+Training epoch 316, step 123630, learning rate 0.000199999994948
+    train loss 0.139025754462, train error 0.00020032051282
+    test loss 0.352110092901, test_error 0.0592999719083
+Training epoch 317, step 124020, learning rate 0.000199999994948
+    train loss 0.139201426926, train error 0.000280448717949
+    test loss 0.350305004325, test_error 0.0590999655426
+Training epoch 318, step 124410, learning rate 0.000199999994948
+    train loss 0.139088909022, train error 0.000180288461539
+    test loss 0.352692062315, test_error 0.0589999638498
+Training epoch 319, step 124800, learning rate 0.000199999994948
+    train loss 0.139030877443, train error 0.000220352564103
+    test loss 0.353214971907, test_error 0.060099966079
+Training epoch 320, step 125190, learning rate 0.000199999994948
+    train loss 0.138953823233, train error 0.000260416666667
+    test loss 0.347202847712, test_error 0.060099966079
+Training epoch 321, step 125580, learning rate 0.000199999994948
+    train loss 0.138718854502, train error 0.000180288461539
+    test loss 0.351596050709, test_error 0.0598999634385
+Training epoch 322, step 125970, learning rate 0.000199999994948
+    train loss 0.138842936663, train error 0.000220352564103
+    test loss 0.349866534583, test_error 0.0595999665558
+Training epoch 323, step 126360, learning rate 0.000199999994948
+    train loss 0.138577689078, train error 0.000160256410256
+    test loss 0.350630436093, test_error 0.0596999637783
+Training epoch 324, step 126750, learning rate 0.000199999994948
+    train loss 0.138551245821, train error 0.000120192307692
+    test loss 0.348363702372, test_error 0.0589999645948
+Training epoch 325, step 127140, learning rate 0.000199999994948
+    train loss 0.138847224338, train error 0.000220352564103
+    test loss 0.35317718219, test_error 0.059899969399
+Training epoch 326, step 127530, learning rate 0.000199999994948
+    train loss 0.138870552297, train error 0.000320512820513
+    test loss 0.353539329208, test_error 0.0599999666214
+Training epoch 327, step 127920, learning rate 0.000199999994948
+    train loss 0.138580552852, train error 0.000260416666667
+    test loss 0.352022144012, test_error 0.0591999664903
+Training epoch 328, step 128310, learning rate 0.000199999994948
+    train loss 0.138592966856, train error 0.000260416666667
+    test loss 0.353276249021, test_error 0.0591999672353
+Training epoch 329, step 128700, learning rate 0.000199999994948
+    train loss 0.138653114362, train error 0.000280448717949
+    test loss 0.348958537169, test_error 0.0594999648631
+Training epoch 330, step 129090, learning rate 0.000199999994948
+    train loss 0.138518210252, train error 0.000160256410256
+    test loss 0.352324784268, test_error 0.0590999625623
+Training epoch 331, step 129480, learning rate 0.000199999994948
+    train loss 0.138307497631, train error 0.000140224358974
+    test loss 0.352272018883, test_error 0.0592999637127
+Training epoch 332, step 129870, learning rate 0.000199999994948
+    train loss 0.138264415814, train error 0.00010016025641
+    test loss 0.347757753544, test_error 0.0591999642551
+Training epoch 333, step 130260, learning rate 0.000199999994948
+    train loss 0.138414285695, train error 0.00020032051282
+    test loss 0.352008933946, test_error 0.0600999638438
+Training epoch 334, step 130650, learning rate 0.000199999994948
+    train loss 0.138277166318, train error 0.00020032051282
+    test loss 0.349445682392, test_error 0.0594999626279
+Training epoch 335, step 131040, learning rate 0.000199999994948
+    train loss 0.138122441448, train error 8.01282051283e-05
+    test loss 0.35538010262, test_error 0.0590999662876
+Training epoch 336, step 131430, learning rate 0.000199999994948
+    train loss 0.13823908151, train error 0.000180288461539
+    test loss 0.351990381442, test_error 0.0604999668896
+Training epoch 337, step 131820, learning rate 0.000199999994948
+    train loss 0.138062839477, train error 0.000120192307692
+    test loss 0.350846634991, test_error 0.059799965471
+Training epoch 338, step 132210, learning rate 0.000199999994948
+    train loss 0.138107311152, train error 0.00020032051282
+    test loss 0.350389226899, test_error 0.0596999667585
+Training epoch 339, step 132600, learning rate 0.000199999994948
+    train loss 0.138152211064, train error 0.00020032051282
+    test loss 0.349082689919, test_error 0.0591999620199
+Training epoch 340, step 132990, learning rate 0.000199999994948
+    train loss 0.138110218904, train error 0.000240384615385
+    test loss 0.351329419296, test_error 0.0588999636471
+Training epoch 341, step 133380, learning rate 0.000199999994948
+    train loss 0.137838716996, train error 0.000140224358974
+    test loss 0.349870045483, test_error 0.058599961549
+Training epoch 342, step 133770, learning rate 0.000199999994948
+    train loss 0.137947808626, train error 0.00020032051282
+    test loss 0.351889613271, test_error 0.0597999699414
+Training epoch 343, step 134160, learning rate 0.000199999994948
+    train loss 0.137866838811, train error 0.000180288461539
+    test loss 0.351593065634, test_error 0.0593999691308
+Training epoch 344, step 134550, learning rate 0.000199999994948
+    train loss 0.137771700246, train error 0.000140224358974
+    test loss 0.346948777791, test_error 0.0588999658823
+Training epoch 345, step 134940, learning rate 0.000199999994948
+    train loss 0.137824770006, train error 0.000160256410256
+    test loss 0.351373649389, test_error 0.0595999665558
+Training epoch 346, step 135330, learning rate 0.000199999994948
+    train loss 0.137823267587, train error 0.000240384615385
+    test loss 0.354038471356, test_error 0.0597999669611
+Training epoch 347, step 135720, learning rate 0.000199999994948
+    train loss 0.137711495772, train error 0.000140224358974
+    test loss 0.350210801139, test_error 0.058999966085
+Training epoch 348, step 136110, learning rate 0.000199999994948
+    train loss 0.137827720818, train error 0.000240384615385
+    test loss 0.352414857317, test_error 0.0593999676406
+Training epoch 349, step 136500, learning rate 0.000199999994948
+    train loss 0.137555147593, train error 0.000180288461539
+    test loss 0.35175398048, test_error 0.0601999677718
+Training epoch 350, step 136890, learning rate 0.000199999994948
+    train loss 0.137590491581, train error 0.000120192307692
+    test loss 0.34967878079, test_error 0.0595999673009
+Training epoch 351, step 137280, learning rate 0.000199999994948
+    train loss 0.13740983166, train error 0.000160256410256
+    test loss 0.348281019181, test_error 0.0589999690652
+Training epoch 352, step 137670, learning rate 0.000199999994948
+    train loss 0.137517085519, train error 0.000220352564103
+    test loss 0.350227089971, test_error 0.0597999662161
+Training epoch 353, step 138060, learning rate 0.000199999994948
+    train loss 0.13751787933, train error 0.000180288461539
+    test loss 0.352799136192, test_error 0.0598999626935
+Training epoch 354, step 138450, learning rate 0.000199999994948
+    train loss 0.137633983791, train error 0.000180288461539
+    test loss 0.3518252098, test_error 0.0598999671638
+Training epoch 355, step 138840, learning rate 0.000199999994948
+    train loss 0.137426801293, train error 0.000180288461539
+    test loss 0.35100593213, test_error 0.0590999610722
+Training epoch 356, step 139230, learning rate 0.000199999994948
+    train loss 0.137444206155, train error 0.00020032051282
+    test loss 0.353678663354, test_error 0.0599999643862
+Training epoch 357, step 139620, learning rate 0.000199999994948
+    train loss 0.137434198344, train error 0.000260416666667
+    test loss 0.353464122955, test_error 0.0594999678433
+Training epoch 358, step 140010, learning rate 0.000199999994948
+    train loss 0.137222704826, train error 0.00020032051282
+    test loss 0.351579809748, test_error 0.0595999598503
+Training epoch 359, step 140400, learning rate 0.000199999994948
+    train loss 0.137261297917, train error 0.000180288461539
+    test loss 0.351649108715, test_error 0.0591999664903
+Training epoch 360, step 140790, learning rate 0.000199999994948
+    train loss 0.13717288864, train error 0.000220352564103
+    test loss 0.348399255518, test_error 0.059799965471
+Training epoch 361, step 141180, learning rate 0.000199999994948
+    train loss 0.13706990362, train error 0.000120192307692
+    test loss 0.349552510679, test_error 0.0592999689281
+Training epoch 362, step 141570, learning rate 0.000199999994948
+    train loss 0.137020087013, train error 0.000180288461539
+    test loss 0.349437337741, test_error 0.0591999687254
+Training epoch 363, step 141960, learning rate 0.000199999994948
+    train loss 0.137256092674, train error 0.000220352564103
+    test loss 0.352742948011, test_error 0.0598999671638
+Training epoch 364, step 142350, learning rate 0.000199999994948
+    train loss 0.136891979094, train error 0.000120192307692
+    test loss 0.352905383147, test_error 0.0601999633014
+Training epoch 365, step 142740, learning rate 0.000199999994948
+    train loss 0.136884479339, train error 0.000140224358974
+    test loss 0.349154206365, test_error 0.0595999635756
+Training epoch 366, step 143130, learning rate 0.000199999994948
+    train loss 0.136902672664, train error 0.000140224358974
+    test loss 0.351440362353, test_error 0.0598999641836
+Training epoch 367, step 143520, learning rate 0.000199999994948
+    train loss 0.136781686353, train error 0.00010016025641
+    test loss 0.352006097231, test_error 0.0594999685884
+Training epoch 368, step 143910, learning rate 0.000199999994948
+    train loss 0.136873886333, train error 0.000160256410256
+    test loss 0.351752722263, test_error 0.0598999641836
+Training epoch 369, step 144300, learning rate 0.000199999994948
+    train loss 0.136828404206, train error 0.000120192307692
+    test loss 0.34981810879, test_error 0.0588999629021
+Training epoch 370, step 144690, learning rate 0.000199999994948
+    train loss 0.136809741228, train error 0.000280448717949
+    test loss 0.351191542018, test_error 0.0590999647975
+Training epoch 371, step 145080, learning rate 0.000199999994948
+    train loss 0.136768305722, train error 0.000240384615385
+    test loss 0.352009092458, test_error 0.0602999679744
+Training epoch 372, step 145470, learning rate 0.000199999994948
+    train loss 0.136473735288, train error 8.01282051283e-05
+    test loss 0.352311555203, test_error 0.059899970144
+Training epoch 373, step 145860, learning rate 0.000199999994948
+    train loss 0.136660970709, train error 0.000160256410256
+    test loss 0.353318471555, test_error 0.0590999625623
+Training epoch 374, step 146250, learning rate 0.000199999994948
+    train loss 0.136575088898, train error 0.000260416666667
+    test loss 0.351448726095, test_error 0.0591999642551
+Training epoch 375, step 146640, learning rate 0.000199999994948
+    train loss 0.136630135507, train error 0.00020032051282
+    test loss 0.34847447332, test_error 0.0590999670327
+Training epoch 376, step 147030, learning rate 0.000199999994948
+    train loss 0.136472175672, train error 0.000240384615385
+    test loss 0.354214232042, test_error 0.0589999623597
+Training epoch 377, step 147420, learning rate 0.000199999994948
+    train loss 0.136398088168, train error 0.000160256410256
+    test loss 0.352813213691, test_error 0.0589999653399
+Training epoch 378, step 147810, learning rate 0.000199999994948
+    train loss 0.136538134362, train error 0.000240384615385
+    test loss 0.351805433538, test_error 0.0587999679148
+Training epoch 379, step 148200, learning rate 0.000199999994948
+    train loss 0.13641433521, train error 0.000180288461539
+    test loss 0.351981491875, test_error 0.0590999655426
+Training epoch 380, step 148590, learning rate 0.000199999994948
+    train loss 0.136218437285, train error 0.000120192307692
+    test loss 0.352760986984, test_error 0.0596999697387
+Training epoch 381, step 148980, learning rate 0.000199999994948
+    train loss 0.136316137704, train error 0.000140224358974
+    test loss 0.352797094919, test_error 0.0591999679804
+Training epoch 382, step 149370, learning rate 0.000199999994948
+    train loss 0.136475112079, train error 0.000220352564103
+    test loss 0.353497374523, test_error 0.0595999710262
+Training epoch 383, step 149760, learning rate 0.000199999994948
+    train loss 0.136226729399, train error 0.000160256410256
+    test loss 0.350428397954, test_error 0.0596999660134
+Training epoch 384, step 150150, learning rate 0.000199999994948
+    train loss 0.136148785246, train error 0.000240384615385
+    test loss 0.351145536266, test_error 0.0591999612749
+Training epoch 385, step 150540, learning rate 0.000199999994948
+    train loss 0.136076741876, train error 0.000160256410256
+    test loss 0.356468448881, test_error 0.0593999654055
+Training epoch 386, step 150930, learning rate 0.000199999994948
+    train loss 0.135923912204, train error 0.000140224358974
+    test loss 0.349962806888, test_error 0.0594999611378
+Training epoch 387, step 151320, learning rate 0.000199999994948
+    train loss 0.1359388847, train error 0.00010016025641
+    test loss 0.351132217795, test_error 0.0591999575496
+Training epoch 388, step 151710, learning rate 0.000199999994948
+    train loss 0.13588549915, train error 0.000140224358974
+    test loss 0.350911234412, test_error 0.0593999639153
+Training epoch 389, step 152100, learning rate 0.000199999994948
+    train loss 0.135766806664, train error 8.01282051283e-05
+    test loss 0.349597522244, test_error 0.0583999663591
+Training epoch 390, step 152490, learning rate 0.000199999994948
+    train loss 0.135873889885, train error 0.000140224358974
+    test loss 0.352529060934, test_error 0.0592999614775
+Training epoch 391, step 152880, learning rate 0.000199999994948
+    train loss 0.135927387155, train error 0.000220352564103
+    test loss 0.352418100554, test_error 0.0599999651313
+Training epoch 392, step 153270, learning rate 0.000199999994948
+    train loss 0.135643018018, train error 0.000120192307692
+    test loss 0.349911887478, test_error 0.0589999631047
+Training epoch 393, step 153660, learning rate 0.000199999994948
+    train loss 0.13576430942, train error 0.000140224358974
+    test loss 0.351707351767, test_error 0.0577999643981
+Training epoch 394, step 154050, learning rate 0.000199999994948
+    train loss 0.13558119822, train error 8.01282051283e-05
+    test loss 0.35008605849, test_error 0.0585999704897
+Training epoch 395, step 154440, learning rate 0.000199999994948
+    train loss 0.135574686374, train error 8.01282051283e-05
+    test loss 0.351866200007, test_error 0.0592999652028
+Training epoch 396, step 154830, learning rate 0.000199999994948
+    train loss 0.135657493808, train error 0.000180288461539
+    test loss 0.352732895967, test_error 0.0583999618888
+Training epoch 397, step 155220, learning rate 0.000199999994948
+    train loss 0.135752868156, train error 0.00020032051282
+    test loss 0.355500492267, test_error 0.0600999653339
+Training epoch 398, step 155610, learning rate 0.000199999994948
+    train loss 0.135470969478, train error 0.000140224358974
+    test loss 0.350208216626, test_error 0.0581999599934
+Training epoch 399, step 156000, learning rate 0.000199999994948
+    train loss 0.135665942117, train error 0.000260416666667
+    test loss 0.352937676571, test_error 0.0594999626279
