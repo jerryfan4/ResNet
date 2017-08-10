@@ -14,10 +14,15 @@ Tensorflow ResNet implementation on cifar10.  Please check out original github r
 | Number of layers | Test error rate |
 | :---------------:| :--------------:|
 | 32               | 7.2%            |
-| 110              | -               |
+| 110              | 5.9%            |
 
 ## Loss & error curve
 32 layer
 
 ![missing error curve](https://github.com/jerryfan4/ResNet/blob/master/ResNet32/error.png)
 ![missing loss curve](https://github.com/jerryfan4/ResNet/blob/master/ResNet32/loss.png)
+
+110 layer
+
+![missing error curve](https://github.com/jerryfan4/ResNet/blob/master/ResNet110/error.png)
+![missing loss curve](https://github.com/jerryfan4/ResNet/blob/master/ResNet110/loss.png)
